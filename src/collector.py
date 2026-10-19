@@ -74,6 +74,13 @@ OFFLINE = os.environ.get("OFFLINE", "").strip() in {"1", "true", "yes"}
 DISABLE_TRANSLATION = OFFLINE or os.environ.get("DISABLE_TRANSLATION", "").strip() in {"1", "true", "yes"}
 
 REQUEST_TIMEOUT = 12
+# 단계별 시간 예산(초). 워크플로 수집 단계 제한(20분) 안에 반드시 끝나도록 한다.
+# 예산을 넘기면 남은 작업은 건너뛰고 이전 수집값/원문을 사용한다(다음 실행 때 다시 시도).
+RUN_STARTED = time.monotonic()
+FX_BUDGET_SEC = int(os.environ.get("FX_BUDGET_SEC", "180"))
+NEWS_BUDGET_SEC = int(os.environ.get("NEWS_BUDGET_SEC", "480"))
+TRANSLATION_BUDGET_SEC = int(os.environ.get("TRANSLATION_BUDGET_SEC", "240"))
+NEWS_MAX_CONSECUTIVE_ERRORS = 12   # Google News 오류가 이만큼 연속되면 차단으로 보고 뉴스 수집 중단
 NEWS_WORKERS = 4          # Google News 동시 요청 수 (너무 높으면 503/429 차단)
 HTTP_USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -400,15 +407,13 @@ def _normalize_series(s) -> pd.Series:
 def _yf_daily_close(ticker: str, days: int = 400) -> pd.Series:
     if OFFLINE:
         return pd.Series(dtype="float64")
-    for attempt in range(2):
-        try:
-            import yfinance as yf
-            hist = yf.Ticker(ticker).history(period=f"{days}d", interval="1d")
-            if hist is not None and not hist.empty:
-                return _normalize_series(hist["Close"])
-        except Exception as e:
-            log.warning(f"[yfinance] {ticker} 조회 실패({attempt + 1}/2): {e}")
-        time.sleep(1.0 + attempt)
+    try:
+        import yfinance as yf
+        hist = yf.Ticker(ticker).history(period=f"{days}d", interval="1d", timeout=REQUEST_TIMEOUT)
+        if hist is not None and not hist.empty:
+            return _normalize_series(hist["Close"])
+    except Exception as e:
+        log.warning(f"[yfinance] {ticker} 조회 실패: {e}")
     return pd.Series(dtype="float64")
 
 
@@ -453,6 +458,9 @@ def prefetch_fx_series(countries: list) -> dict:
     if missing:
         log.info(f"[yfinance] 일괄 수집 부족 티커 {len(missing)}개 개별 재시도: {missing}")
     for t in missing:
+        if time.monotonic() - RUN_STARTED > FX_BUDGET_SEC:
+            log.warning(f"[yfinance] 환율 시간 예산({FX_BUDGET_SEC}초) 초과 — 남은 개별 재시도 생략")
+            break
         s = _yf_daily_close(t)
         if len(s) > len(out.get(t, [])):
             out[t] = s
@@ -673,22 +681,40 @@ def _parse_entry(entry) -> dict:
     }
 
 
+_NEWS_ERRORS = 0
+_NEWS_STOPPED = False
+
+
 def _fetch_feed(url: str, limit: int) -> list:
     """RSS 요청(타임아웃+재시도) → 파싱 → 유효 기사 최대 limit개."""
-    if OFFLINE:
+    global _NEWS_ERRORS, _NEWS_STOPPED
+    if OFFLINE or _NEWS_STOPPED:
+        return []
+    if time.monotonic() - RUN_STARTED > FX_BUDGET_SEC + NEWS_BUDGET_SEC:
+        if not _NEWS_STOPPED:
+            log.warning(f"뉴스 시간 예산({NEWS_BUDGET_SEC}초) 초과 — 남은 국가는 이전 수집 기사를 사용합니다")
+        _NEWS_STOPPED = True
         return []
     content = None
-    for attempt in range(3):
+    for attempt in range(2):
         try:
             r = requests.get(url, timeout=REQUEST_TIMEOUT, headers={"User-Agent": HTTP_USER_AGENT})
             if r.status_code == 200:
                 content = r.content
+                _NEWS_ERRORS = 0
                 break
-            log.warning(f"RSS HTTP {r.status_code} ({attempt + 1}/3): {url[:120]}")
+            log.warning(f"RSS HTTP {r.status_code} ({attempt + 1}/2): {url[:120]}")
+            if r.status_code not in (429, 500, 502, 503, 504):
+                break
         except requests.RequestException as e:
-            log.warning(f"RSS 요청 실패({attempt + 1}/3): {e}")
-        time.sleep((2 ** attempt) + random.random())
+            log.warning(f"RSS 요청 실패({attempt + 1}/2): {e}")
+        if attempt == 0:
+            time.sleep(1.5 + random.random())
     if content is None:
+        _NEWS_ERRORS += 1
+        if _NEWS_ERRORS >= NEWS_MAX_CONSECUTIVE_ERRORS and not _NEWS_STOPPED:
+            _NEWS_STOPPED = True
+            log.warning(f"Google News 오류 {_NEWS_ERRORS}회 연속 — 차단으로 보고 뉴스 수집 중단(이전 기사 사용)")
         return []
 
     try:
@@ -983,56 +1009,64 @@ def save_translation_cache(cache: dict) -> None:
         log.warning(f"번역 캐시 저장 실패(무시): {e}")
 
 
+GTX_URL = "https://translate.googleapis.com/translate_a/single"
+MYMEMORY_URL = "https://api.mymemory.translated.net/get"
+TRANSLATE_TIMEOUT = 10
+
+
 def _translate_google(text: str) -> str:
-    from deep_translator import GoogleTranslator
-    return GoogleTranslator(source="auto", target="ko").translate(text)
+    """Google 번역 공개 엔드포인트(client=gtx)를 타임아웃을 명시해 직접 호출.
+    (deep-translator는 내부 요청에 타임아웃이 없어 멈출 수 있어 사용하지 않음)"""
+    r = requests.post(GTX_URL, params={"client": "gtx", "sl": "auto", "tl": "ko", "dt": "t"},
+                      data={"q": text}, timeout=TRANSLATE_TIMEOUT,
+                      headers={"User-Agent": HTTP_USER_AGENT})
+    r.raise_for_status()
+    data = r.json()
+    return "".join(seg[0] for seg in (data[0] or []) if seg and seg[0])
 
 
 def _translate_mymemory(text: str) -> str:
-    from deep_translator import MyMemoryTranslator
-    return MyMemoryTranslator(source="en-US", target="ko-KR").translate(text)
+    r = requests.get(MYMEMORY_URL, params={"q": text[:480], "langpair": "en|ko"},
+                     timeout=TRANSLATE_TIMEOUT, headers={"User-Agent": HTTP_USER_AGENT})
+    r.raise_for_status()
+    out = (r.json().get("responseData") or {}).get("translatedText") or ""
+    return "" if "MYMEMORY WARNING" in out.upper() else out
 
 
 def _translate_one(text: str) -> str:
-    """단건 번역: Google(재시도 3회, 백오프) → MyMemory. 실패 시 빈 문자열."""
-    for attempt in range(3):
+    """단건 번역: Google 1회 → MyMemory 1회. 실패 시 빈 문자열."""
+    for fn in (_translate_google, _translate_mymemory):
         try:
-            out = _translate_google(text)
+            out = fn(text)
             if out and HANGUL_RE.search(out):
                 return out.strip()
         except Exception as e:
-            log.warning(f"Google 번역 실패({attempt + 1}/3): {e}")
-        time.sleep(1.5 * (2 ** attempt))
-    try:
-        out = _translate_mymemory(text)
-        if out and HANGUL_RE.search(out) and "MYMEMORY WARNING" not in out.upper():
-            return out.strip()
-    except Exception as e:
-        log.warning(f"MyMemory 번역 실패: {e}")
+            log.warning(f"{fn.__name__} 실패: {e.__class__.__name__}: {str(e)[:120]}")
     return ""
 
 
-def _translate_batch(texts: list) -> list:
-    """여러 문장을 줄바꿈으로 묶어 한 번에 번역. 줄 수가 어긋나면 None."""
+def _translate_batch(texts: list):
+    """여러 문장을 줄바꿈으로 묶어 한 번에 번역(최대 2회 시도). 줄 수가 어긋나면 None."""
     joined = "\n".join(t.replace("\n", " ") for t in texts)
-    for attempt in range(3):
+    for attempt in range(2):
         try:
             out = _translate_google(joined)
             if out:
-                lines = [ln.strip() for ln in out.split("\n")]
-                lines = [ln for ln in lines if ln]
+                lines = [ln.strip() for ln in out.split("\n") if ln.strip()]
                 if len(lines) == len(texts):
                     return lines
                 log.info(f"묶음 번역 줄 수 불일치({len(lines)}≠{len(texts)}) → 단건 번역으로 전환")
                 return None
         except Exception as e:
-            log.warning(f"묶음 번역 실패({attempt + 1}/3): {e}")
-        time.sleep(1.5 * (2 ** attempt))
+            log.warning(f"묶음 번역 실패({attempt + 1}/2): {e.__class__.__name__}: {str(e)[:120]}")
+        if attempt == 0:
+            time.sleep(2)
     return None
 
 
 def translate_texts(texts: list, cache: dict) -> dict:
-    """영문 문장 리스트 → {원문: 번역문}. 캐시 우선, 미번역분만 호출."""
+    """영문 문장 리스트 → {원문: 번역문}. 캐시 우선, 미번역분만 호출.
+    시간 예산(TRANSLATION_BUDGET_SEC)과 연속 실패 차단으로 전체 실행 시간을 제한한다."""
     today = datetime.now(KST).strftime("%Y-%m-%d")
     result = {}
     pending = []
@@ -1050,8 +1084,7 @@ def translate_texts(texts: list, cache: dict) -> dict:
         return result
 
     log.info(f"번역 대상 {len(pending)}건 (캐시 적중 {len(result)}건)")
-    chunk, size = [], 0
-    chunks = []
+    chunks, chunk, size = [], [], 0
     for t in pending:
         if chunk and (size + len(t) > 1500 or len(chunk) >= 20):
             chunks.append(chunk)
@@ -1061,27 +1094,38 @@ def translate_texts(texts: list, cache: dict) -> dict:
     if chunk:
         chunks.append(chunk)
 
-    consecutive_fail = 0
+    started = time.monotonic()
+    single_fail_streak = 0
+    stop_reason = ""
     for ch in chunks:
-        if consecutive_fail >= 5:
-            log.warning("번역 실패가 연속돼 남은 번역을 중단합니다(원문 유지, 다음 실행 때 재시도).")
+        if time.monotonic() - started > TRANSLATION_BUDGET_SEC:
+            stop_reason = f"시간 예산({TRANSLATION_BUDGET_SEC}초) 초과"
             break
         translated = _translate_batch(ch)
         if translated is None:
             translated = []
             for t in ch:
-                translated.append(_translate_one(t))
-                time.sleep(0.4)
-        ok = 0
+                if single_fail_streak >= 5 or time.monotonic() - started > TRANSLATION_BUDGET_SEC:
+                    translated.append("")
+                    continue
+                ko = _translate_one(t)
+                single_fail_streak = 0 if ko else single_fail_streak + 1
+                translated.append(ko)
+                time.sleep(0.3)
+            if single_fail_streak >= 5:
+                stop_reason = "번역 서비스 연속 실패(5건)"
         for src, ko in zip(ch, translated):
             if ko and HANGUL_RE.search(ko):
                 result[src] = ko
                 cache[src] = {"ko": ko, "last": today}
-                ok += 1
-        consecutive_fail = consecutive_fail + 1 if ok == 0 else 0
-        time.sleep(0.6)
+        if stop_reason:
+            break
+        time.sleep(0.5)
 
-    log.info(f"번역 완료: {len([t for t in pending if t in result])}/{len(pending)}건 성공")
+    done = len([t for t in pending if t in result])
+    log.info(f"번역 완료: {done}/{len(pending)}건 성공 ({time.monotonic() - started:.0f}초)")
+    if stop_reason:
+        log.warning(f"번역 중단: {stop_reason} — 나머지는 원문 유지, 다음 실행 때 재시도")
     return result
 
 
