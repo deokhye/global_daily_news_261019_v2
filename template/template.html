@@ -7,7 +7,7 @@
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Chart.js CDN for graph -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800;900&display=swap');
         body {
@@ -121,6 +121,10 @@
             padding: 1px 5px;
             margin-left: 4px;
         }
+        .hidden { display: none; }   /* Tailwind CDN 로드 실패 시에도 숨김 요소가 노출되지 않도록 */
+        .line-clamp-2, .line-clamp-3 { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+        .line-clamp-2 { -webkit-line-clamp: 2; }
+        .line-clamp-3 { -webkit-line-clamp: 3; }
         .loading-dim { opacity: 0.45; pointer-events: none; transition: opacity .15s ease; }
         .calc-input {
             width: 100%;
@@ -391,6 +395,28 @@
         // 그 외(4순위, 기타 33개 지법인/오피스)는 이 목록에 없으므로 동일 순위로 묶여 가나다순으로 정렬된다.
         const HIERARCHY_PRIORITY = ["KR", "US", "DE", "CN", "HU", "ID"];
 
+        // ---------------------------------------------------------------
+        // XSS 방지 — 외부(뉴스 RSS)에서 온 문자열은 반드시 escapeHtml/safeUrl을 거쳐 출력
+        // ---------------------------------------------------------------
+        function escapeHtml(v) {
+            return String(v === null || v === undefined ? '' : v)
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+        }
+        function safeUrl(u) {
+            try {
+                const url = new URL(String(u || ''), window.location.href);
+                return (url.protocol === 'http:' || url.protocol === 'https:') ? url.href : '#';
+            } catch (e) { return '#'; }
+        }
+        function safeFlag(f) {
+            return /^[a-z]{2}$/.test(String(f || '')) ? f : 'un';
+        }
+        function fmtDate(d) {
+            const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(d || ''));
+            return m ? `${m[2]}.${m[3]}` : '';
+        }
+
         let DASHBOARD, REGIONS, COUNTRIES;
         try {
             const raw = document.getElementById('dashboard-data').textContent;
@@ -484,7 +510,7 @@
                 btn.type = 'button';
                 btn.className = 'country-chip' + (c.code === currentCode ? ' active' : '');
                 const tier = tierLabel(c.code);
-                btn.innerHTML = `<img src="https://flagcdn.com/w40/${c.flag}.png" alt="${c.code}"><span>${c.name_kr}</span>${tier ? `<span class="tier-badge">${tier}</span>` : ''}`;
+                btn.innerHTML = `<img src="https://flagcdn.com/w40/${safeFlag(c.flag)}.png" alt="${escapeHtml(c.code)}"><span>${escapeHtml(c.name_kr)}</span>${tier ? `<span class="tier-badge">${tier}</span>` : ''}`;
                 btn.onclick = () => selectCountry(c.code);
                 el.appendChild(btn);
             });
@@ -521,7 +547,7 @@
             currentDateStr = dateStr;
 
             document.getElementById('sync-display-text').textContent =
-                dashboard.as_of_display || `${dateStr} 06:00 KST 기준`;
+                dashboard.as_of_display || `${dateStr} 아카이브`;
 
             if (!REGIONS.find(r => r.key === currentRegion)) currentRegion = 'ALL';
             const list = countriesInRegion(currentRegion);
@@ -567,11 +593,17 @@
         // ---------------------------------------------------------------
         // 원화 표기 포맷
         // ---------------------------------------------------------------
-        // 환율 카드 메인 숫자/차트 툴팁: 소수점 1자리 통일
-        function fmtWon(v) {
+        // 환율 카드 메인 숫자/차트 툴팁: 값 크기에 맞춘 소수 자릿수
+        // (백엔드 fx.decimals 우선, 없으면 ≥100 → 1자리, ≥10 → 2자리, 그 미만 → 3자리)
+        function autoDecimals(n) {
+            const a = Math.abs(n);
+            return a >= 100 ? 1 : (a >= 10 ? 2 : 3);
+        }
+        function fmtWon(v, decimals) {
             const n = Number(v);
-            if (!isFinite(n)) return '0.0';
-            return n.toLocaleString('ko-KR', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+            if (v === null || v === undefined || !isFinite(n)) return '-';
+            const d = Number.isInteger(decimals) ? decimals : autoDecimals(n);
+            return n.toLocaleString('ko-KR', { minimumFractionDigits: d, maximumFractionDigits: d });
         }
 
         // 계산기 결과: 소수점 완전 제거, 정수(콤마 표기)만 사용
@@ -625,8 +657,8 @@
         function recalcCalculator() {
             const resultEl = document.getElementById('calcResult');
             const fx = currentFx;
-            if (!fx || fx.is_base) {
-                resultEl.textContent = '0 원';
+            if (!fx || fx.is_base || !isFinite(Number(fx.current_rate)) || fx.current_rate === null) {
+                resultEl.textContent = '- 원';
                 return;
             }
             const amount = parseFloat(document.getElementById('calcInput').value);
@@ -647,7 +679,7 @@
         // 카드 렌더링
         // ---------------------------------------------------------------
         function renderProfile(c) {
-            document.getElementById('country-flag').src = `https://flagcdn.com/w80/${c.flag}.png`;
+            document.getElementById('country-flag').src = `https://flagcdn.com/w80/${safeFlag(c.flag)}.png`;
             document.getElementById('country-name-en').textContent = (c.name_en || '-').toUpperCase();
             document.getElementById('country-currency').textContent = c.currency || '-';
             document.getElementById('country-name-kr').textContent = `${c.name_kr || '-'} (${c.name_en || '-'})`;
@@ -662,8 +694,9 @@
 
             const hubs = (c.hubs && c.hubs.length) ? c.hubs : (c.offices && c.offices.length ? c.offices : null);
             document.getElementById('country-hubs').textContent = hubs ? hubs.join(', ') : '-';
+            const asof = (p.stats_asof && p.stats_asof !== '-') ? ` (${p.stats_asof} 기준)` : '';
             document.getElementById('profile-stats-source').textContent =
-                `* 인구·GDP·수도·최저임금: ${p.stats_source || 'Hankook Tire Global HR 자체 조사'} (${p.stats_asof || '-'} 기준)`;
+                `* 인구·GDP·수도·최저임금: ${p.stats_source || 'Hankook Tire Global HR 자체 조사'}${asof}`;
         }
 
         function renderExchange(c) {
@@ -700,17 +733,28 @@
             unitLabel.textContent = unitBase > 1
                 ? `${unitBase} ${c.currency || ''} (${c.name_kr || ''} 통화) 기준`
                 : `1 ${c.currency || ''} (${c.name_kr || ''} 통화) 기준`;
-            rateEl.textContent = `${fmtWon(fx.current_rate || 0)} 원`;
+            const decimals = Number.isInteger(fx.decimals) ? fx.decimals : undefined;
+            const hasRate = fx.current_rate !== null && fx.current_rate !== undefined && isFinite(Number(fx.current_rate)) && Number(fx.current_rate) > 0;
+            rateEl.textContent = hasRate ? `${fmtWon(fx.current_rate, decimals)} 원` : '수집 실패';
 
-            const isUp = (fx.change_pct || 0) >= 0;
-            badge.className = 'mt-2 inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-bold ' +
-                (isUp ? 'bg-red-100 text-red-700' : 'bg-blue-100 text-blue-700');
-            badge.textContent = `${isUp ? '▲' : '▼'} 전일 대비 ${isUp ? '상승' : '하락'} (${isUp ? '+' : '-'}${Math.abs(fx.change_pct || 0).toFixed(2)}%)`;
+            const pct = Number(fx.change_pct);
+            if (!hasRate || fx.change_pct === null || fx.change_pct === undefined || !isFinite(pct)) {
+                badge.className = 'mt-2 inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-bold bg-slate-100 text-slate-500';
+                badge.textContent = '등락 정보 없음';
+            } else if (pct === 0) {
+                badge.className = 'mt-2 inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-bold bg-slate-100 text-slate-600';
+                badge.textContent = '– 전일 대비 변동 없음 (0.00%)';
+            } else {
+                const isUp = pct > 0;
+                badge.className = 'mt-2 inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-bold ' +
+                    (isUp ? 'bg-red-100 text-red-700' : 'bg-blue-100 text-blue-700');
+                badge.textContent = `${isUp ? '▲' : '▼'} 전일 대비 ${isUp ? '상승' : '하락'} (${isUp ? '+' : '-'}${Math.abs(pct).toFixed(2)}%)`;
+            }
 
             chartCaption.textContent = unitBase > 1
                 ? `최근 1년 환율 추이 (${unitBase} ${c.currency} 기준)`
                 : '최근 1년 환율 추이';
-            sourceNote.textContent = `${fx.source || 'Yahoo Finance'} 기준`;
+            sourceNote.textContent = `${fx.source || 'Yahoo Finance'}${fx.asof ? ` · ${fx.asof} 종가` : ''} 기준`;
 
             if (fx.url) {
                 yahooLink.href = fx.url;
@@ -719,16 +763,19 @@
                 yahooLink.classList.add('hidden');
             }
 
-            renderChart(fx.history_labels || [], fx.history_values || []);
+            const histLabels = fx.history_labels || [];
+            if (histLabels.length < 2) chartCaption.textContent = '환율 추이 데이터가 부족합니다';
+            renderChart(histLabels, fx.history_values || [], decimals);
             updateCalculator(c);
         }
 
-        function renderChart(labels, values) {
+        function renderChart(labels, values, decimals) {
             const canvas = document.getElementById('exchangeRateChart');
             const ctx = canvas.getContext('2d');
             if (chartInstance) { chartInstance.destroy(); chartInstance = null; }
 
-            if (!labels.length || !values.length) return; // 데이터 없으면 빈 캔버스 유지 (에러 방지)
+            if (labels.length < 2 || values.length < 2) return; // 점 1개 이하면 추이 그래프 의미 없음
+            if (typeof Chart === 'undefined') return;          // CDN 로드 실패 시에도 나머지 카드는 정상 렌더
 
             const gradient = ctx.createLinearGradient(0, 0, 0, 100);
             gradient.addColorStop(0, 'rgba(242, 122, 24, 0.15)');
@@ -767,7 +814,7 @@
                             displayColors: false,
                             callbacks: {
                                 title: (items) => items[0].label,
-                                label: (item) => `${fmtWon(item.parsed.y)} 원`,
+                                label: (item) => `${fmtWon(item.parsed.y, decimals)} 원`,
                             }
                         }
                     },
@@ -782,8 +829,7 @@
 
         function translatedBadge(item) {
             if (!item.translated) return '';
-            const original = (item.original_title || '').replace(/"/g, '&quot;');
-            return `<span class="translated-badge" title="원문: ${original}">EN→KO 자동번역</span>`;
+            return `<span class="translated-badge" title="원문: ${escapeHtml(item.original_title || '')}">자동번역</span>`;
         }
 
         function renderHeadlines(c) {
@@ -796,17 +842,20 @@
             }
             list.forEach(h => {
                 const a = document.createElement('a');
-                a.href = h.link || '#';
+                a.href = safeUrl(h.link);
                 a.target = '_blank';
-                a.rel = 'noopener';
+                a.rel = 'noopener noreferrer';
                 a.className = 'block bg-slate-50 hover:bg-orange-50/50 p-3 rounded-lg transition duration-200 border border-slate-100 group';
                 a.innerHTML = `
                     <div class="flex items-center justify-between text-[10px] text-slate-400 mb-1">
-                        <span class="font-bold text-slate-500">${h.source || 'Google News'}</span>
-                        ${translatedBadge(h)}
+                        <span class="font-bold text-slate-500 truncate">${escapeHtml(h.source || 'Google News')}</span>
+                        <span class="flex items-center gap-1 shrink-0">
+                            ${fmtDate(h.published) ? `<span>${fmtDate(h.published)}</span>` : ''}
+                            ${translatedBadge(h)}
+                        </span>
                     </div>
-                    <p class="font-bold text-xs text-slate-800 leading-snug">${h.title || ''}</p>
-                    ${h.summary ? `<p class="text-[11px] text-slate-500 leading-snug mt-1">${h.summary}</p>` : ''}
+                    <p class="font-bold text-xs text-slate-800 leading-snug line-clamp-3">${escapeHtml(h.title || '')}</p>
+                    ${h.summary ? `<p class="text-[11px] text-slate-500 leading-snug mt-1 line-clamp-2">${escapeHtml(h.summary)}</p>` : ''}
                 `;
                 el.appendChild(a);
             });
@@ -822,22 +871,22 @@
                 return;
             }
             list.slice(0, 4).forEach(item => {
-                const dateLabel = item.published || item.date || '';
+                const dateLabel = fmtDate(item.published || item.date || '');
                 const a = document.createElement('a');
-                a.href = item.link || '#';
+                a.href = safeUrl(item.link);
                 a.target = '_blank';
-                a.rel = 'noopener';
+                a.rel = 'noopener noreferrer';
                 a.className = 'trend-item group';
                 a.innerHTML = `
                     <div class="flex items-center justify-between text-[10px] text-slate-400 mb-1">
-                        <span class="font-bold text-slate-500">${item.source || 'Google News'}</span>
-                        <span class="flex items-center gap-1">
+                        <span class="font-bold text-slate-500 truncate">${escapeHtml(item.source || 'Google News')}</span>
+                        <span class="flex items-center gap-1 shrink-0">
                             ${dateLabel ? `<span>${dateLabel}</span>` : ''}
                             ${translatedBadge(item)}
                         </span>
                     </div>
-                    <h4 class="font-bold text-sm text-slate-900 mb-1 leading-snug group-hover:text-[#F27A18] transition-colors">${item.title || ''}</h4>
-                    ${item.desc ? `<p class="text-xs text-slate-600 leading-snug">${item.desc}</p>` : ''}
+                    <h4 class="font-bold text-sm text-slate-900 mb-1 leading-snug line-clamp-2 group-hover:text-[#F27A18] transition-colors">${escapeHtml(item.title || '')}</h4>
+                    ${item.desc ? `<p class="text-xs text-slate-600 leading-snug line-clamp-2">${escapeHtml(item.desc)}</p>` : ''}
                 `;
                 el.appendChild(a);
             });
