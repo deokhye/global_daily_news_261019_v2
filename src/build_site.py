@@ -127,7 +127,7 @@ def _empty_skeleton_data() -> dict:
     return {
         "generated_at": now_dt.isoformat(),
         "generated_at_display": _now_display(),
-        "as_of_display": f"{date_str} 06:00 KST 기준 (데이터 없음)",
+        "as_of_display": f"{date_str} (데이터 없음)",
         "regions": [{"key": "ALL", "label": "전체"}],
         "countries": [],
     }
@@ -181,7 +181,7 @@ def load_data() -> dict:
 
     data.setdefault("generated_at", default_generated_at)
     data.setdefault("generated_at_display", _now_display())
-    data.setdefault("as_of_display", f"{str(data.get('generated_at'))[:10]} 06:00 KST 기준")
+    data.setdefault("as_of_display", f"{str(data.get('generated_at'))[:10]} 수집")
     data.setdefault("regions", [{"key": "ALL", "label": "전체"}])
     data.setdefault("countries", [])
 
@@ -304,9 +304,9 @@ def build(data: dict) -> bool:
     archive_min, archive_max = load_archive_range(today_str)
 
     try:
-        as_of_display = data.get("as_of_display") or f"{today_str} 06:00 KST 기준"
+        as_of_display = data.get("as_of_display") or f"{today_str} 수집"
     except Exception:
-        as_of_display = f"{today_str} 06:00 KST 기준"
+        as_of_display = f"{today_str} 수집"
 
     try:
         env = _resolve_template_env()
