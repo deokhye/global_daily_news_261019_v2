@@ -281,7 +281,7 @@
                     </div>
                 </div>
                 <div id="profile-stats-source" class="mt-4 pt-3 border-t border-slate-100 text-[10px] text-slate-400">
-                    * 인구·GDP·수도·최저임금: Hankook Tire Global HR 자체 조사
+                    * 출처: Hankook Tire Global HR 자체 조사
                 </div>
             </div>
 
@@ -696,7 +696,7 @@
             document.getElementById('country-hubs').textContent = hubs ? hubs.join(', ') : '-';
             const asof = (p.stats_asof && p.stats_asof !== '-') ? ` (${p.stats_asof} 기준)` : '';
             document.getElementById('profile-stats-source').textContent =
-                `* 인구·GDP·수도·최저임금: ${p.stats_source || 'Hankook Tire Global HR 자체 조사'}${asof}`;
+                `* 출처: ${p.stats_source || 'Hankook Tire Global HR 자체 조사'}${asof}`;
         }
 
         function renderExchange(c) {

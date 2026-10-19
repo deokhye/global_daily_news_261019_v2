@@ -299,16 +299,46 @@ def _yahoo_finance_url(currency: str) -> str:
 # ---------------------------------------------------------------------------
 # 1. 국가 프로필
 # ---------------------------------------------------------------------------
+PROFILE_JSON_PATH = os.path.join(BASE_DIR, "output", "country_profile.json")
+PROFILE_FIELDS = ("population", "gdp", "inflation", "unemployment", "min_wage")
+
+
+def load_auto_profiles() -> tuple[dict, str]:
+    """country_profile 파이프라인(python -m country_profile)이 만든 output/country_profile.json 을
+    읽어 {ISO2: 항목} 으로 돌려준다. 파일이 없으면 빈 dict — 기존 메타데이터만 사용한다."""
+    try:
+        with open(PROFILE_JSON_PATH, "r", encoding="utf-8") as f:
+            payload = json.load(f)
+        by_code = {str(c.get("iso2", "")).upper(): c for c in payload.get("countries", []) if c.get("iso2")}
+        return by_code, str(payload.get("generated_at", ""))[:10]
+    except FileNotFoundError:
+        return {}, ""
+    except Exception as e:  # noqa: BLE001
+        log.warning(f"자동 수집 프로필 로드 실패(메타데이터만 사용): {e}")
+        return {}, ""
+
+
+AUTO_PROFILES, AUTO_PROFILES_ASOF = load_auto_profiles()
+
+
 def build_profile(country: dict, cached: dict) -> dict:
+    """프로필 카드 값. 총인구·GDP·인플레이션·실업률·최저임금은 자동 수집 결과
+    (output/country_profile.json)를 우선 쓰고, 값이 없으면('-') 기존 메타데이터로 채운다.
+    수도는 한글 표기를 위해 메타데이터 값을 유지하고, 거점은 config/sites.csv 기준을 쓴다."""
     meta = country.get("meta_profile", {})
     cached_profile = (cached or {}).get("profile", {})
+    auto = AUTO_PROFILES.get(country.get("code", "").upper(), {})
 
     def pick(key):
+        v = auto.get(key) if key in PROFILE_FIELDS else None
+        if not _is_bad_value(v) and v != "-":
+            return v
         v = meta.get(key)
         if not _is_bad_value(v):
             return v
         return cached_profile.get(key, "-")
 
+    used_auto = any(not _is_bad_value(auto.get(k)) and auto.get(k) != "-" for k in PROFILE_FIELDS)
     return {
         "capital": pick("capital"),
         "population": pick("population"),
@@ -317,8 +347,10 @@ def build_profile(country: dict, cached: dict) -> dict:
         "unemployment": pick("unemployment"),
         "min_wage": pick("min_wage"),
         "min_wage_note": "",
-        "stats_source": "Hankook Tire Global HR 자체 조사",
-        "stats_asof": meta.get("as_of") or METADATA_ASOF or "",
+        "sites": auto.get("sites") or [],
+        "stats_source": ("IMF WEO · Trading Economics · Eurostat/ILOSTAT · HR 보정자료" if used_auto
+                         else "Hankook Tire Global HR 자체 조사"),
+        "stats_asof": (AUTO_PROFILES_ASOF if used_auto else (meta.get("as_of") or METADATA_ASOF or "")),
     }
 
 
@@ -1386,7 +1418,8 @@ def collect_country(country: dict, cache_by_code: dict, fx_series: dict) -> dict
     code = country["code"]
     cached = cache_by_code.get(code, {})
     seen: set = set()
-    offices = copy.deepcopy(country.get("offices", []))
+    auto_sites = AUTO_PROFILES.get(code.upper(), {}).get("sites") or []
+    offices = copy.deepcopy(auto_sites or country.get("offices", []))
     result = {
         "code": code, "region": country["region"], "name_kr": country["name_kr"],
         "name_en": country["name_en"], "currency": country["currency"], "flag": country["flag"],
