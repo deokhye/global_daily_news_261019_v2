@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T09:57:18.782022+09:00",
-  "generated_at_display": "2026-10-20 09:57 KST",
-  "as_of_display": "2026-10-20 09:57 KST 수집",
+  "generated_at": "2026-10-20T10:06:10.654125+09:00",
+  "generated_at_display": "2026-10-20 10:06 KST",
+  "as_of_display": "2026-10-20 10:06 KST 수집",
   "regions": [
     {
       "key": "ALL",
@@ -64,8 +64,8 @@
         "capital": "Seoul",
         "population": "51.6백만 명",
         "gdp": "2,245.8십억 USD",
-        "inflation": "2.0%",
-        "unemployment": "3.0%",
+        "inflation": "2.9% (2026.09)",
+        "unemployment": "2.6% (2026.09)",
         "min_wage": {
           "display": "10,320원 / 시간",
           "note": "2026년 기준"
@@ -105,9 +105,9 @@
           "original_title": ""
         },
         {
-          "title": "‘재정 빨대’ 발언 뒤에 가려진 소방 국가직화···소방관들 “이제는 진짜 바꿔야”",
-          "source": "경향신문",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUYmVCNmhFYmM1Rm4xSGZjSmFZUHhIVTNveEFNU0Zwbm1rd1RxaXpLSUFsQTRKSFc4cFVveWVhdnhSUlA5OVF1SmRIVUVXWVNwclA4U002b2hMd9IBX0FVX3lxTE9fWmJBcUVDcDZLYUtrSmt3a0N5bFl0cW1OdU5WQTF3bGplX2N2Q21PRWlRaHVGUS11UVBVY0hhRlF5YldYeWtZb0lvS1FzZnZwQ3B4bmFUVmI1cjdHS1A0?oc=5",
+          "title": "\"약탈 시위대에도, 방치한 국가에도 분노\"…프랑스 주민·상인 공분",
+          "source": "연합뉴스TV",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SZ2VhYk81X0lFbUlJbWhPVmwtNUxoQUo3cmpSeWI3Mng0YWVhdV9panZJYWxOcXJpZm1EVHlJalhMZ2Q1cVYzWjB4QzlTT2daX0kwMGlyWGNvbnN6M29qYVVjbkdTNjQ?oc=5",
           "summary": "",
           "published": "2026-10-20",
           "lang": "ko",
@@ -115,9 +115,9 @@
           "original_title": ""
         },
         {
-          "title": "\"약탈 시위대에도, 방치한 국가에도 분노\"…프랑스 주민·상인 공분",
-          "source": "연합뉴스TV",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9SZ2VhYk81X0lFbUlJbWhPVmwtNUxoQUo3cmpSeWI3Mng0YWVhdV9panZJYWxOcXJpZm1EVHlJalhMZ2Q1cVYzWjB4QzlTT2daX0kwMGlyWGNvbnN6M29qYVVjbkdTNjQ?oc=5",
+          "title": "‘재정 빨대’ 발언 뒤에 가려진 소방 국가직화···소방관들 “이제는 진짜 바꿔야”",
+          "source": "경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUYmVCNmhFYmM1Rm4xSGZjSmFZUHhIVTNveEFNU0Zwbm1rd1RxaXpLSUFsQTRKSFc4cFVveWVhdnhSUlA5OVF1SmRIVUVXWVNwclA4U002b2hMd9IBX0FVX3lxTE9fWmJBcUVDcDZLYUtrSmt3a0N5bFl0cW1OdU5WQTF3bGplX2N2Q21PRWlRaHVGUS11UVBVY0hhRlF5YldYeWtZb0lvS1FzZnZwQ3B4bmFUVmI1cjdHS1A0?oc=5",
           "summary": "",
           "published": "2026-10-20",
           "lang": "ko",
@@ -243,8 +243,8 @@
         "capital": "Washington, D.C.",
         "population": "342.8백만 명",
         "gdp": "32,642.4십억 USD",
-        "inflation": "3.0%",
-        "unemployment": "4.1%",
+        "inflation": "3.7% (2026.09)",
+        "unemployment": "4.2% (2026.09)",
         "min_wage": "USD 1,257 / 월급 (2026-07-01 시행)",
         "min_wage_note": "",
         "sites": [
@@ -259,8 +259,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1325.6,
-        "change_pct": -0.59,
+        "current_rate": 1326.8,
+        "change_pct": -0.5,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -287,7 +287,7 @@
           1420.6,
           1377.1,
           1350.5,
-          1325.6
+          1326.8
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/USDKRW=X",
@@ -343,20 +343,10 @@
               "published": "2026-10-19"
             },
             {
-              "title": "중국 지리자동차, 캐나다 진출 본격화…미국 규제 피해 북미 공략",
+              "title": "베트남 빈패스트, 2028년 미국 전기 버스 시장 진출",
               "desc": "",
-              "source": "알파경제",
-              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsS1psR3hIUkl1NEZjUDB3eEFSdEtXajVWLU5mV19jaXViNGVrRVpVOVdBSWRydnlRM05HQ3JYMjR6bnV3dHhwWnVoVHNLTnhMZFc4WTVURDJVT1d4N2hnQ1hSUDRNcnZNQWs4ZWZ3?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-12"
-            },
-            {
-              "title": "현대자동차 ‘디 올 뉴 투싼’ 미국 뉴욕서 글로벌 무대 첫선",
-              "desc": "",
-              "source": "국민기자뉴스",
-              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kLW8yUlNOMFNXa1BPcHJrSy1sRG1EX3IwM2gzMDM5d21IT3pyblFBQ2lGekhzeVF4Q25GZm1FR0w4Qk9zX0Fpdkd3akdrVGRaYm9ZcVQySEIwYWNIa01Fdjh4SdIBZ0FVX3lxTE1hYmxacHFFZTlKSWdnb25JT1FmSWZmeF9UM3FscEhSZzU5eHJXZXJSeUVCNnFZdWcxdTBkT0pMYi1keGxHQ2NPMlRqMnk3c2FTWWU3SmFDUHBZSkIwNjA1X3FrWlR3ZXc?oc=5",
+              "source": "다나와 자동차",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mVTR3OURfX2hZQTlERGZvU0twQnZlWjFWdl96ZEw5ZndBdmttZldib0FrMDNCUkZrWU9Gem40eGpTQnRVMm5rdTB1WkgyOUFrWXVwUE1zN3hQaVNOeE05WWRsMzF0UlY2QTg4?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
@@ -371,6 +361,16 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-07"
+            },
+            {
+              "title": "중국 지리자동차, 캐나다 진출 본격화…미국 규제 피해 북미 공략",
+              "desc": "",
+              "source": "알파경제",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsS1psR3hIUkl1NEZjUDB3eEFSdEtXajVWLU5mV19jaXViNGVrRVpVOVdBSWRydnlRM05HQ3JYMjR6bnV3dHhwWnVoVHNLTnhMZFc4WTVURDJVT1d4N2hnQ1hSUDRNcnZNQWs4ZWZ3?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-12"
             }
           ]
         },
@@ -444,8 +444,8 @@
         "capital": "Berlin",
         "population": "83.3백만 명",
         "gdp": "5,471.3십억 USD",
-        "inflation": "2.3%",
-        "unemployment": "6.0%",
+        "inflation": "3.3% (2026.09)",
+        "unemployment": "6.4% (2026.09)",
         "min_wage": "EUR 2,343 / 월급 (2026-07-01 시행)",
         "min_wage_note": "",
         "sites": [
@@ -460,8 +460,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1485.8,
-        "change_pct": -0.83,
+        "current_rate": 1487.5,
+        "change_pct": -0.72,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -488,7 +488,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1485.8
+          1487.5
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -601,6 +601,16 @@
               "published": "2026-10-09"
             },
             {
+              "title": "도이체방크 CEO, 독일 경제 개혁 가속화 및 노동법 유연화 촉구",
+              "desc": "",
+              "source": "Investing.com 한국어",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE92d1hBamVpcnR0bWlwU2ZYY3huNDZxS3FvYjdueGdVSmd6TkVTSFVuX2ZfMlNWcHpHOERNX3ZaUjlndUJxX2hRTHg5SVBkSkJlRkh0S1c2b3d5Y0dib1FQNW9WYm9RV1JSeHc?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-11"
+            },
+            {
               "title": "스페인, 독일, 벨기에, 포르투갈 ...: 프랑스와 함께 유럽 곳곳에서 벌어지고 있는 저항들",
               "desc": "",
               "source": "노동자 연대",
@@ -609,16 +619,6 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-13"
-            },
-            {
-              "title": "독일 완성차의 비명, 벤츠 주 35시간 파기하고 강경 구조조정",
-              "desc": "",
-              "source": "쿠쿠쿠뉴스",
-              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJeHRTU2tPaDBCMEswRmFsLWRjOUJsbFFYTnJOZS1sUmNRWnpEemc1VDZxSzVXNWt6cTJkTVBvVnQ0bk1DVjlheDdSOWNkNmxNVzdIcGlNV2JCQQ?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-12"
             }
           ]
         }
@@ -651,8 +651,8 @@
         "capital": "Beijing",
         "population": "1,401.7백만 명",
         "gdp": "21,546.4십억 USD",
-        "inflation": "0.3%",
-        "unemployment": "5.1%",
+        "inflation": "0.9% (2026.09)",
+        "unemployment": "5.2% (2026.09)",
         "min_wage": {
           "display": "약 25위안 / 시간",
           "note": "지역별 상이(참고치), 상하이 등 대도시 기준"
@@ -856,8 +856,8 @@
         "capital": "Budapest",
         "population": "9.5백만 명",
         "gdp": "265.9십억 USD",
-        "inflation": "4.4%",
-        "unemployment": "4.2%",
+        "inflation": "1.6% (2026.09)",
+        "unemployment": "4.8% (2026.08)",
         "min_wage": "HUF 322,800 / 월급 (2026-07-01 시행)",
         "min_wage_note": "",
         "sites": [
@@ -871,8 +871,8 @@
         "is_base": false,
         "unit_base": 100,
         "decimals": 1,
-        "current_rate": 410.1,
-        "change_pct": -0.56,
+        "current_rate": 410.3,
+        "change_pct": -0.51,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -899,7 +899,7 @@
           452.0,
           437.5,
           417.9,
-          410.1
+          410.3
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/HUFKRW=X",
@@ -1054,8 +1054,8 @@
         "capital": "Jakarta",
         "population": "287.2백만 명",
         "gdp": "1,480.0십억 USD",
-        "inflation": "1.8%",
-        "unemployment": "4.9%",
+        "inflation": "3.3% (2026.09)",
+        "unemployment": "4.7% (2026 Q1)",
         "min_wage": {
           "display": "약 5,396,761루피아 / 월",
           "note": "자카르타(DKI) 기준, 지역별 상이"
@@ -1119,16 +1119,6 @@
           "original_title": "‘A Ticking Time Bomb’: An Economic Crisis Looms in Indonesia"
         },
         {
-          "title": "인도네시아 증시, MSCI 등급 하향 경고로 1998년 이후 최악의 날 기록",
-          "source": "WSJ",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmY4bFlVY09zSkdQc0ItXzJqT2pmcFBSUkpwVVd6aUNuTU1waDNUcHY3UHJfYkRNby1kOTBPWHdEcklJLXlHVWpfMThubmtmU3JGZjNPWFdjNHJXZ29vVzJ6Z2tienRzc2d6V3pyVFNGQzdFZVphWTRNazZiRVRMeWpoSTE5ZEJ1aVRRUTZ6eC1XSE1scE9RNUx6MnhMbUxHRTc4ek9hOWlqTldkRlpxTzcxYjJQQQ?oc=5",
-          "summary": "",
-          "published": "2026-10-20",
-          "lang": "en",
-          "translated": true,
-          "original_title": "Indonesia Stocks Log Worst Day Since 1998 on MSCI Downgrade Warning"
-        },
-        {
           "title": "인도네시아 시장은 기능 장애가 있으며 투자가 불가능한 시장은 아닙니다.",
           "source": "Financial Times",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYWtydXZNWWItVzFWZGthX1pZd0NRTUEtWGp1SDVzbDJCMmpodE1teUtCS2kta3BOYzAxT29CSVJjWWdIUXdQNnMwcjFfSGx6ZmtxRHNJODQ4dFBGd0pqVERzdmRDSDd5YS0zSGhWTmpJeGs2dEE3dThPOG81eFJEa0pLOU8?oc=5",
@@ -1137,6 +1127,16 @@
           "lang": "en",
           "translated": true,
           "original_title": "Indonesia’s market is dysfunctional, not uninvestable"
+        },
+        {
+          "title": "설명: 인도네시아 주식에 대한 MSCI의 소송과 650억 달러의 손실",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV0hicmI2MG4yeTRybTVNaHJFSWhnS2VxY0FUUVl0YUtCVmE5NHRjdEZ1cmhYTU9iNFlScnlFb2pKT1Fra2lnLWdHTzFyUW9aZy1tM0xoVkRjckI2Nk1jUFlwbjQ0SVlMdURDUmluQmNaQTdEVDlrbDlvSUN1WVlhd1lsZ2FVVXhzTjB6Q05VYXlzZGpPajFwWjlCYjdBREtCS2VoZUQ5M0pVb2p5cDVN?oc=5",
+          "summary": "",
+          "published": "2026-10-19",
+          "lang": "en",
+          "translated": true,
+          "original_title": "Explainer: MSCI's case against Indonesian stocks and the $65 billion fallout"
         }
       ],
       "hr_trends": [
@@ -1253,8 +1253,8 @@
         "capital": "Amsterdam",
         "population": "18.1백만 명",
         "gdp": "1,423.9십억 USD",
-        "inflation": "3.2%",
-        "unemployment": "3.7%",
+        "inflation": "3.4% (2026.09)",
+        "unemployment": "4.0% (2026.09)",
         "min_wage": "EUR 2,338 / 월급 (2026-07-01 시행)",
         "min_wage_note": "",
         "sites": [
@@ -1267,8 +1267,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1485.8,
-        "change_pct": -0.83,
+        "current_rate": 1487.5,
+        "change_pct": -0.72,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -1295,7 +1295,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1485.8
+          1487.5
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -1448,8 +1448,8 @@
         "capital": "Taipei",
         "population": "23.2백만 명",
         "gdp": "1,019.6십억 USD",
-        "inflation": "2.0%",
-        "unemployment": "3.4%",
+        "inflation": "2.7% (2026.09)",
+        "unemployment": "3.3% (2026.08)",
         "min_wage": {
           "display": "NT$190 / 시간",
           "note": "월 NT$29,500, 2026년 기준"
@@ -1465,8 +1465,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 2,
-        "current_rate": 40.76,
-        "change_pct": -0.96,
+        "current_rate": 40.79,
+        "change_pct": -0.89,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -1493,7 +1493,7 @@
           43.83,
           43.52,
           42.4,
-          40.76
+          40.79
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/TWDKRW=X",
@@ -1646,8 +1646,8 @@
         "capital": "Moscow",
         "population": "143.4백만 명",
         "gdp": "2,861.2십억 USD",
-        "inflation": "8.9%",
-        "unemployment": "2.4%",
+        "inflation": "6.3% (2026.09)",
+        "unemployment": "2.2% (2026.08)",
         "min_wage": {
           "display": "약 22,440루블 / 월",
           "note": "MROT 기준, 2025년"
@@ -1710,16 +1710,6 @@
           "original_title": "Exclusive | Putin Floats a Summit With Trump and Xi to Discuss Ukraine Deal"
         },
         {
-          "title": "젤렌스키는 트럼프가 우크라이나를 러시아에 양보하도록 밀어붙이고 있다고 말한다.",
-          "source": "Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYnBjV3RPMWhXRnBZTkRWVEdBMkxnOEhDQXZlZlhZcXYzbU1TUFFDM2xGS0tBX2w3X2xKYnhwcDdYSDFYNG1WX0FrMzhaWG5OSjA2cGxWY3NxdUJya1MtTTVzeWY3OUYwbHB2U2pKTkxCWmpZUGw0NVZ0NFZpZDNDTnpqVG0tT3NnYzJoWThZNDZiMjZjZXpaNDM1VU9TeVFSNmd6VXc4OG1MZ0VXVXNyZV9nYmQ?oc=5",
-          "summary": "",
-          "published": "2026-10-19",
-          "lang": "en",
-          "translated": true,
-          "original_title": "Zelenskyy Says Trump Is Pushing Ukraine to Yield to Russia"
-        },
-        {
           "title": "트럼프의 러시아 움직임은 레임덕 의제를 복잡하게 만들 수 있다",
           "source": "Roll Call",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNU09tdmRDazZHZFBmb1lPOXJOMHl0MnRCaVFwMUljdUlNWjl4RXZHUVUwYnVMbFpPYThveG83U1M1WklTTUVVQzltbzh2clZMa1BJclBnUkswc28wLWIzUUV2SXUzejNDdUlMRFIxdzlSNUxOV0pyREdrOVBRZTQxOTRkMEwybmFlNWwweU1EMA?oc=5",
@@ -1728,6 +1718,16 @@
           "lang": "en",
           "translated": true,
           "original_title": "Trump’s Russia moves could complicate lame-duck agenda"
+        },
+        {
+          "title": "트럼프의 러시아 제재 면제로 인도의 에너지 문제가 완화되고 무역 거래 가능성이 높아짐",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX1JDdGd6aEZHMGQ5OXppVnA5d3FlSzNmbDdjOURNajl2Sjg3T0VrRzRLSC1DdVpLekQ5ZHBVdjQ1eV9UcF81anZNVklVYjZnQlNfQUlWRVMtNzEwVVVDQWlYTmQtU29FOU5xTFlGYTFUVV90bXI3dXU5UU5IUG9ZNjNYVHNUdzNjT3JXb244bm84d240TG56ZDVLbXNhMWpucjVTZXdtaTZQYjViOFU3bDZnZlFEQjduUDBfMWdwMVBXUFl3VFRJ?oc=5",
+          "summary": "",
+          "published": "2026-10-19",
+          "lang": "en",
+          "translated": true,
+          "original_title": "Trump's Russia sanctions waiver eases India's energy woes, lifts trade deal chances"
         }
       ],
       "hr_trends": [
@@ -1844,8 +1844,8 @@
         "capital": "Bucharest",
         "population": "19.0백만 명",
         "gdp": "470.1십억 USD",
-        "inflation": "5.7%",
-        "unemployment": "5.4%",
+        "inflation": "6.6% (2026.09)",
+        "unemployment": "6.4% (2026.08)",
         "min_wage": "RON 4,325 / 월급 (2026-07-01 시행)",
         "min_wage_note": "",
         "sites": [
@@ -1858,8 +1858,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 279.3,
-        "change_pct": -0.7,
+        "current_rate": 279.5,
+        "change_pct": -0.63,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -1886,7 +1886,7 @@
           312.4,
           303.8,
           290.5,
-          279.3
+          279.5
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/RONKRW=X",
@@ -1905,6 +1905,16 @@
           "original_title": "Romania’s inflation problem: why disinflation is proving so difficult"
         },
         {
+          "title": "루마니아의 전자상거래 이행: 유럽 성장을 위한 전략적 허브",
+          "source": "DHL",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMFM5LUJqYzI4ZmpvZDZFN1NGLWQ0NWdYTTIteFdRR2E1SjJiTG5zMHV0a1U4MGRHSGFkVHZEQXFJcHpnb2lSNUxlb3k4NmxjS0JRVEhEWjZXbXliWUtPS0xWdzFjTEoyYkJSa3NFNkFPb0dRRmxua2kwY0VaQUE4WUF4TDgzbHpBR1BCRC1EN0lVdTJVYy1qM0pYUWhDMExuZWY4N1h6NnRvZVljRHNWeG13?oc=5",
+          "summary": "",
+          "published": "2026-10-19",
+          "lang": "en",
+          "translated": true,
+          "original_title": "E-commerce fulfillment in Romania: a strategic hub for European growth"
+        },
+        {
           "title": "루마니아, 목표보다 훨씬 낮은 2040년 국채 3,600만 유로 매도",
           "source": "SeeNews",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb1RpMjVscXcweDdkVFB4a3A0a3Ixb3ZlLU5sRktXSWNOamg2eFMzY2NmT0RzRFhXTTljZjFVVHp2bDllRWhkM1ZaMEI3YjZ3OHRvR1E2TFRfUUFoTHlhS2JHS240TmRkX29YUWZrMTdfdV8xZ21SRU1ZXzREYWlsbjNoTFV1bG9BT1Q5N0hvRm5aMHA1a0E4?oc=5",
@@ -1913,16 +1923,6 @@
           "lang": "en",
           "translated": true,
           "original_title": "Romania sells 36 mln euro of 2040 T-bonds, well below target"
-        },
-        {
-          "title": "루마니아는 스토리지 소유자가 수익성 있는 수익을 모색함에 따라 2026년에 663MW의 배터리를 추가합니다.",
-          "source": "Business Review",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWWJnMERqbjlEbGJJSUVaaTgzd3hRT0NZRjIzNU9DM183Z25rbUJqd051VzF2MGZXSFZXVi04cEQzdC1mSTAyLWdqX2Qyc1RfUm9meENmSWk5Q3FQOEZISXVMem4tcF82bjdXS3NqLWJURE9kUC02ZzlQQ2x2ZmRYN21HSUlGNVNLMmVDSFFrdUJTVHZvak5XV1BIV3BBdjJVcGoyeVZYQ3NoNFJjNS13S1N3ZnU5N3ZLM3JVX1h1TGZrLXM?oc=5",
-          "summary": "",
-          "published": "2026-10-19",
-          "lang": "en",
-          "translated": true,
-          "original_title": "Romania Adds 663 MW of Batteries in 2026 as Storage Owners Look for Bankable Revenue"
         }
       ],
       "hr_trends": [
@@ -2039,8 +2039,8 @@
         "capital": "Kuala Lumpur",
         "population": "34.2백만 명",
         "gdp": "547.1십억 USD",
-        "inflation": "1.9%",
-        "unemployment": "3.2%",
+        "inflation": "1.8% (2026.09)",
+        "unemployment": "2.9% (2026.08)",
         "min_wage": {
           "display": "RM8.72 / 시간",
           "note": "월 RM1,700 기준, 2025.2 시행"
@@ -2056,8 +2056,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 324.6,
-        "change_pct": -0.58,
+        "current_rate": 325.0,
+        "change_pct": -0.45,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -2084,7 +2084,7 @@
           348.6,
           342.1,
           330.9,
-          324.6
+          325.0
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/MYRKRW=X",
@@ -2197,6 +2197,16 @@
               "published": "2026-10-16"
             },
             {
+              "title": "선택한 설정을 되돌리는 한국 말레이시아 축구 토토 옵션 안내",
+              "desc": "",
+              "source": "Calgary Roughnecks",
+              "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWWV2ZGItRDNfRTVldXNKRG02c3N3X0pCckxmc2dZRDZRckN0aVJGTU9oNlRtb1RqRDhrMm9mUlJ2UjFGVzhEOGcwNUdOeHdQVXJ0X0tLNml5Qk52UmF2SktBRVl4NndTdFEwdUJBR08xcmNEc3djSTJZc256MDJYaHluaVc1NHg2bGJXWldLNA?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-18"
+            },
+            {
               "title": "영천기업의 새로운 수출길 '태국·말레이시아' 개척",
               "desc": "",
               "source": "전국구직노조신문",
@@ -2205,16 +2215,6 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-19"
-            },
-            {
-              "title": "KAI, 말레이시아 초등학교 시설 정비 봉사활동",
-              "desc": "",
-              "source": "이투데이",
-              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QSnBkVGptczAzVU5abEFoRTBGT29ka05xNGU5TzR6WFNEZEFIRlpFUlV2M1hIWlJaSzFJdDRCcTdBTkhlYzdmdDhHS1N5VWFoRVozQQ?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-16"
             }
           ]
         }
@@ -2237,8 +2237,8 @@
         "capital": "Mexico City",
         "population": "134.4백만 명",
         "gdp": "2,176.2십억 USD",
-        "inflation": "4.6%",
-        "unemployment": "2.7%",
+        "inflation": "3.5% (2026.09)",
+        "unemployment": "3.0% (2026.08)",
         "min_wage": {
           "display": "약 9,583.52페소 / 월",
           "note": "일반지역 기준, 2026년, 국경지대는 더 높음"
@@ -2254,8 +2254,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 2,
-        "current_rate": 72.31,
-        "change_pct": -0.55,
+        "current_rate": 72.02,
+        "change_pct": -0.4,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -2282,14 +2282,24 @@
           81.9,
           80.86,
           74.85,
-          72.31
+          72.02
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/MXNKRW=X",
-        "asof": "2026-10-19",
+        "asof": "2026-10-20",
         "stale": false
       },
       "headlines": [
+        {
+          "title": "트럼프 \"멕시코와 미국이 무역협상에 가까워졌다\"",
+          "source": "U.S. News & World Report",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcC1mSGJKdFFYTkhNMnBCaDQ2WS1oNUNsSHhVVThuWW9vcVF0dllUUG4wckVCaGJOMy1LV0ZPdk5BQ1JXSnJSTERPZ1g1bkkwUTZmVFZNU0JGTTBHRm93ZlNHMDFCdldlV2pRTEtKcVlTWndhdk9YSnpzNV92UlBKNTlzNlRmZVdUU0VJem9pUVpHM25oOWhIVjR3dXRwYjN0V2VaZzFCSWs?oc=5",
+          "summary": "",
+          "published": "2026-10-20",
+          "lang": "en",
+          "translated": true,
+          "original_title": "Trump Says Mexico and US Are Close to Trade Deal"
+        },
         {
           "title": "시날로아에서 압수된 광섬유 드론, 멕시코의 우려를 불러일으키다",
           "source": "Texas Public Radio | TPR",
@@ -2309,16 +2319,6 @@
           "lang": "en",
           "translated": true,
           "original_title": "Aeromexico eyes new US flights after Washington lifts Mexico City restrictions"
-        },
-        {
-          "title": "멕시코 정부는 미국이 항공사에 대한 제한을 해제하자 안도감을 느꼈다.",
-          "source": "EL PAÍS English",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYUdKYUJnOEtlY3BBVnRlVnBYcHlmamJxV3NLWXJtSUxxektVbVZXdWZCY0xoUVlwbWxfMWdPOFQ3cm4yVDlSbXM2aENHM1psNHA4M0MxUnNtQ0tkMUNQSkJTaGRaYVRrSDlMZG9hLWpkQVlkQ2tCM3dIVHRNN0JWMkFRMjlENk5wSjBQUVpoNXlMU0NmbVpWUVcxcVl0VUFuY1FNdlJDTFh1T1gtOEMxWWNwV0JySnJObGV1dGcweXZZd9IB1gFBVV95cUxQNDV1NmVXQmlxa0hMX0FUb0hEclMwMUpTcXlOUFpIXzZvQnh4Tjd3d1A2R1h5N1UxM0tTTElHMmJjc2lCYmhzZ0pCVEVBcmh6TW1OajRmdHIxck5BMHAxbUhZVlpqMUpyeE4xd3A3MWUyZkdWX3Nxb2RLdWhwSEk0VU5fQ2k5MF9vb3IyeW5mT3hZY05LNWM0am9WQV9IQ29rLXlIVkt0VjNwd1NhNktfelFSRFlXN2ZMOU9EaFI1MGFBQ3g1cWlHeGpodlVySzVsMnh2WThn?oc=5",
-          "summary": "",
-          "published": "2026-10-19",
-          "lang": "en",
-          "translated": true,
-          "original_title": "Mexican government relieved after US lifts restrictions on airlines"
         }
       ],
       "hr_trends": [
@@ -2435,8 +2435,8 @@
         "capital": "Rabat",
         "population": "38.0백만 명",
         "gdp": "195.6십억 USD",
-        "inflation": "1.5%",
-        "unemployment": "13.3%",
+        "inflation": "-0.3% (2026.08)",
+        "unemployment": "9.5% (2026 Q2)",
         "min_wage": {
           "display": "약 17.07디르함 / 시간",
           "note": "참고치"
@@ -2452,8 +2452,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 135.4,
-        "change_pct": -4.26,
+        "current_rate": 135.5,
+        "change_pct": -4.18,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -2480,7 +2480,7 @@
           151.4,
           153.1,
           143.9,
-          135.4
+          135.5
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/MADKRW=X",
@@ -2633,8 +2633,8 @@
         "capital": "Hanoi",
         "population": "103.1백만 명",
         "gdp": "542.1십억 USD",
-        "inflation": "3.6%",
-        "unemployment": "2.0%",
+        "inflation": "5.1% (2026.09)",
+        "unemployment": "2.2% (2026 Q2)",
         "min_wage": {
           "display": "약 5,310,000동 / 월",
           "note": "1지역(하노이·호치민 등) 기준, 2026.1, 지역별 상이"
@@ -2747,21 +2747,21 @@
               "title": "현대차, 베트남 9월 판매 전월比 32.3%↑ '가속페달'…투싼·크레타 '쌍끌이'",
               "desc": "",
               "source": "더구루",
-              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xR2ZXUmtTRVlNOF9VeEhkZzRfbE9uNWpXSk5wdm1GTUtnQTMzUUlsSFRmdXV4b1ZydTBxT0E2UXc2SWl6ZHNOcnRFLVJLX3Q3aWd1OHBkV0NOU0VuLWU3SWZtNA?oc=5",
+              "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zX3hvNjFQSmNSX29ydjhRNEUxN29XSjBsQmhSS19pTTdOX3JMZDdURjNUeHRJTUVtWGliWGpzWm5yazU1MjVYRWpkemFwczJZajlJUlNXd3FpV3ZnQVpnQw?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
               "published": "2026-10-13"
             },
             {
-              "title": "베트남 자동차 판매, 신기록 눈앞…빈패스트 성장 견인",
+              "title": "베트남 빈패스트, 2028년 미국 전기 버스 시장 진출",
               "desc": "",
-              "source": "씬짜오베트남",
-              "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE42RUlHRE0wR20wYVhSVlBjcnBhSmw5ODhJdFM4bEIxaUYxdkJFSFZLNzlzZV9tSmRvMlRtSktTOXRRMDAxcHc4cw?oc=5",
+              "source": "다나와 자동차",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mVTR3OURfX2hZQTlERGZvU0twQnZlWjFWdl96ZEw5ZndBdmttZldib0FrMDNCUkZrWU9Gem40eGpTQnRVMm5rdTB1WkgyOUFrWXVwUE1zN3hQaVNOeE05WWRsMzF0UlY2QTg4?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
-              "published": "2026-10-15"
+              "published": "2026-10-12"
             }
           ]
         },
@@ -2831,8 +2831,8 @@
         "capital": "Brasília",
         "population": "214.1백만 명",
         "gdp": "2,654.8십억 USD",
-        "inflation": "4.5%",
-        "unemployment": "6.4%",
+        "inflation": "4.6% (2026.09)",
+        "unemployment": "5.3% (2026.08)",
         "min_wage": {
           "display": "약 1,631헤알 / 월",
           "note": "2026년 기준(참고치), 13번째 급여 별도 지급 관행"
@@ -2979,14 +2979,14 @@
               "published": "2026-10-08"
             },
             {
-              "title": "브라질: 앞으로 4년 더?",
+              "title": "룰라는 브라질 대통령직을 잃을 위기에 처했다",
               "desc": "",
               "source": "참세상",
-              "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5iMTFiemJheGQzQTlHQlhobkZsd01tS2dhWFlRSmc1TUdQRVB5bTkxWC1nUEM2VGJocmJ3M25tWFFjQQ?oc=5",
+              "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE54dHRIcVJ1Z0xIOUNPSUE5SmpwX216N0tmbFJnMndrWERLbGhvejBSblBxOVBYQ19aWEFFR1hqejNYUQ?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
-              "published": "2026-10-06"
+              "published": "2026-10-07"
             },
             {
               "title": "\"정상회담 성과 위해 비싼 브라질 계란 수입?\"…외교부 \"사실 아냐\"",
@@ -3029,8 +3029,8 @@
         "capital": "Riyadh",
         "population": "36.7백만 명",
         "gdp": "1,343.3십억 USD",
-        "inflation": "2.0%",
-        "unemployment": "3.7%",
+        "inflation": "1.9% (2026.09)",
+        "unemployment": "3.0% (2026 Q2)",
         "min_wage": "법정 최저임금 없음 (자국민 대상 기준만 있음)",
         "min_wage_note": "",
         "sites": [
@@ -3043,8 +3043,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 353.4,
-        "change_pct": -3.63,
+        "current_rate": 353.7,
+        "change_pct": -3.54,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -3071,7 +3071,7 @@
           378.3,
           376.0,
           370.8,
-          353.4
+          353.7
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/SARKRW=X",
@@ -3079,6 +3079,16 @@
         "stale": false
       },
       "headlines": [
+        {
+          "title": "사우디아라비아, 후티 반군 공격 이후 FII 투자 행사 연기",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdWxSYW5DN0dmY1FZeU1qUmhBbERZNTVGb3ZGdGh0clVUeUpEQ05lRy02TXplRDRIangtempxS1pWa0QtX3I0emFNZ0pmYlFTbHNHR3ZPTVRCcUJQNzVEQ2k1Q3VZbklES2RFbVFhb2xyY3I3S1djeDlfZ3hFNG1TaWc0TQ?oc=5",
+          "summary": "",
+          "published": "2026-10-20",
+          "lang": "en",
+          "translated": true,
+          "original_title": "Saudi Arabia Postpones Its FII Investment Event After Houthi Attacks"
+        },
         {
           "title": "사우디아라비아, 후티 반군 연쇄 공격으로 다음 주 '사막의 다보스' 회의 취소",
           "source": "CNN",
@@ -3090,24 +3100,14 @@
           "original_title": "Saudi Arabia cancels next week’s ‘Davos in the Desert’ conference after series of Houthi attacks"
         },
         {
-          "title": "사우디아라비아, 후티 반군 공격 이후 주요 투자 행사 연기",
-          "source": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdWxSYW5DN0dmY1FZeU1qUmhBbERZNTVGb3ZGdGh0clVUeUpEQ05lRy02TXplRDRIangtempxS1pWa0QtX3I0emFNZ0pmYlFTbHNHR3ZPTVRCcUJQNzVEQ2k1Q3VZbklES2RFbVFhb2xyY3I3S1djeDlfZ3hFNG1TaWc0TQ?oc=5",
+          "title": "사우디아라비아의 변화하는 규제 환경: 국제 투자 운용사를 위한 기회와 과제",
+          "source": "Morgan Lewis",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZlZYak9pVzBfeDJ0c1p5cDdLS0hUc2E3dENKaWc2RGpLa0JRMlUxOF94eXJOME83ZjhRaVljRWJ4WTJOek1oQ0lhQTFQbUV5MzdEVFBPQ3VaREpObGctWnFaMTFHVEVOZmVJeUE4c0dlNjAyTl8xSG1YejZFdWVnZGZPR1c1eloyaGJwdmQ0ZUI2dDZDbjNmTmIweVNBUHJwOWNaT3owMWpvdjJOeEFobHR5ekJtU3REYnZNWTByemNPd2tXanhGU1o1RzFlcUFEWVBXbklVT014NmFYM1BKOEdoNkFsUQ?oc=5",
           "summary": "",
           "published": "2026-10-20",
           "lang": "en",
           "translated": true,
-          "original_title": "Saudi Arabia Postpones Its Marquee Investment Event After Houthi Attacks"
-        },
-        {
-          "title": "후티 반군 공격으로 사우디아라비아, 주요 투자 정상회담을 2027년까지 연기",
-          "source": "Los Angeles Times",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR2lnZ2xZVnFsQ3hNTFh0WDdYR1ZjR2hreHBzczBzODZQV2lZUlNFLTBLTWlJNFNUVTdyVTlCd1NpTkJRbFhNWEZFLU45ZVFWYXRxdXlkUmtRZ0p1b1JPSjJUQ1RkQ3cwcldWTXZJUGhUeGk3Ny1OaW9CVi0yV3pnTzhhUkhOUXNsbE4wclo1d1p0Mjk2UUo0aHZfbHh3T0FNWUJOZjZmQkhzdUNpTXBCTk5ZdUVkSlVobnY3cFNPaUhXMndaNnMyeGk0cW16UQ?oc=5",
-          "summary": "",
-          "published": "2026-10-20",
-          "lang": "en",
-          "translated": true,
-          "original_title": "Houthi attacks force Saudi Arabia to postpone flagship investment summit until 2027"
+          "original_title": "Saudi Arabia’s Changing Regulatory Landscape: Opportunities and Challenges for International Investment Managers"
         }
       ],
       "hr_trends": [
@@ -3224,8 +3224,8 @@
         "capital": "Belgrade",
         "population": "6.5백만 명",
         "gdp": "111.2십억 USD",
-        "inflation": "4.2%",
-        "unemployment": "8.6%",
+        "inflation": "4.1% (2026.09)",
+        "unemployment": "7.2% (2026 Q2)",
         "min_wage": "RSD 87,207 / 월급 (2026-07-01 시행)",
         "min_wage_note": "",
         "sites": [
@@ -3419,8 +3419,8 @@
         "capital": "Stockholm",
         "population": "10.8백만 명",
         "gdp": "745.1십억 USD",
-        "inflation": "1.9%",
-        "unemployment": "8.2%",
+        "inflation": "1.1% (2026.09)",
+        "unemployment": "8.1% (2026.09)",
         "min_wage": "법정 최저임금 없음 (단체협약으로 결정)",
         "min_wage_note": "",
         "sites": [
@@ -3433,8 +3433,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 134.5,
-        "change_pct": -0.17,
+        "current_rate": 133.8,
+        "change_pct": -0.51,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -3461,11 +3461,11 @@
           148.9,
           143.4,
           135.2,
-          134.5
+          133.8
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/SEKKRW=X",
-        "asof": "2026-10-19",
+        "asof": "2026-10-20",
         "stale": false
       },
       "headlines": [
@@ -3614,8 +3614,8 @@
         "capital": "Madrid",
         "population": "49.9백만 명",
         "gdp": "2,085.3십억 USD",
-        "inflation": "2.8%",
-        "unemployment": "11.2%",
+        "inflation": "4.9% (2026.09)",
+        "unemployment": "9.9% (2026 Q2)",
         "min_wage": "EUR 1,425 / 월급 (2026-07-01 시행)",
         "min_wage_note": "",
         "sites": [
@@ -3628,8 +3628,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1485.8,
-        "change_pct": -0.83,
+        "current_rate": 1487.5,
+        "change_pct": -0.72,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -3656,7 +3656,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1485.8
+          1487.5
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -3809,8 +3809,8 @@
         "capital": "Singapore",
         "population": "6.1백만 명",
         "gdp": "667.9십억 USD",
-        "inflation": "2.5%",
-        "unemployment": "2.0%",
+        "inflation": "2.3% (2026.08)",
+        "unemployment": "1.9% (2026 Q2)",
         "min_wage": "법정 최저임금 없음 (업종별 점진임금모델(PWM) 적용)",
         "min_wage_note": "",
         "sites": [
@@ -3823,8 +3823,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1035.8,
-        "change_pct": -0.62,
+        "current_rate": 1037.1,
+        "change_pct": -0.5,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -3851,7 +3851,7 @@
           1108.0,
           1080.4,
           1057.3,
-          1035.8
+          1037.1
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/SGDKRW=X",
@@ -4004,7 +4004,7 @@
         "capital": "Abu Dhabi",
         "population": "11.6백만 명",
         "gdp": "661.0십억 USD",
-        "inflation": "2.3%",
+        "inflation": "2.0% (2025.11)",
         "unemployment": "2.6%",
         "min_wage": "법정 최저임금 없음 (자국민 대상 기준만 있음)",
         "min_wage_note": "",
@@ -4018,8 +4018,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 361.0,
-        "change_pct": -0.61,
+        "current_rate": 361.3,
+        "change_pct": -0.52,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -4046,7 +4046,7 @@
           386.9,
           375.1,
           367.8,
-          361.0
+          361.3
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/AEDKRW=X",
@@ -4189,8 +4189,8 @@
         "capital": "London",
         "population": "69.8백만 명",
         "gdp": "4,268.4십억 USD",
-        "inflation": "2.6%",
-        "unemployment": "4.4%",
+        "inflation": "3.1% (2026.08)",
+        "unemployment": "4.9% (2026.07)",
         "min_wage": {
           "display": "£12.71 / 시간",
           "note": "National Living Wage(21세 이상), 2025~26년 기준"
@@ -4206,8 +4206,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1762.6,
-        "change_pct": -0.87,
+        "current_rate": 1764.6,
+        "change_pct": -0.76,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -4234,7 +4234,7 @@
           1912.2,
           1864.7,
           1787.6,
-          1762.6
+          1764.6
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/GBPKRW=X",
@@ -4310,14 +4310,14 @@
               "published": "2026-10-20"
             },
             {
-              "title": "영국, 중국산 전기차 관세 문제 직면",
+              "title": "기아, 영국 자동차 시장 판매 2위 달성…스포티지 판매 견인",
               "desc": "",
-              "source": "IDNFinancials",
-              "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNd2dsc1dxa0tvUWxoZ2htbjhoNzlZSzI5OUVxM1JsMktNT1dxNzlHdzBfN3llWnQ2Y1JPeGtLYUNNemJTUkN4ZU9JWnZxZkdtYmV5dVl5eXlCOG1KRFotV1MtaWRNVXJMSDh5R3d5d01yS2FpVUs0TG5uUDBxR0p6ZDV4WC1QbkVkTEhmUmx5VTVHNjVpZHVpZVhiTHZlNUtCVHhrMzNlV2dOZXY2bE45OTBIRko5RTdpUkl2LU9hdmswUFVOYkhoaU5RU2dpX2R6dFh6YUZ0VFdfUjhkRGN3cG1Qb3BHSk9hRS03SEhBbWtnYU0xNEpfTlJYRGdFLWtTQXhGNHpB?oc=5",
+              "source": "한국소비자경제",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmU2drWmJwMm91Vy1iTFE0eVVUMjZ4UnBZTUhselAyZmliQXM3VWhBQXFYcUJKQThUZVRiSHpIWWU4N1BRcXZUN3BoQmZzNVhYMnkxNE01UFJMa3V4MU9tZTA3WC11N1UtaHg00gFuQVVfeXFMTzRUVGI4aU56TGtiMDR4a2VkRzhoaGpFbWdTdU9ZVkNCajJPd1pjdnVzY3ZFSHRLek0zUHphQXVNcFYzYW5MRHl2YkZ2bzVpalU0ZEdGaHUyeVEyQzhaa24tbEcyY0U2Q0s1Y2lJS2c?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
-              "published": "2026-10-13"
+              "published": "2026-10-07"
             }
           ]
         },
@@ -4387,8 +4387,8 @@
         "capital": "Vienna",
         "population": "9.2백만 명",
         "gdp": "616.9십억 USD",
-        "inflation": "2.9%",
-        "unemployment": "5.3%",
+        "inflation": "3.6% (2026.09)",
+        "unemployment": "7.1% (2026.09)",
         "min_wage": "법정 최저임금 없음 (단체협약으로 결정)",
         "min_wage_note": "",
         "sites": [
@@ -4401,8 +4401,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1485.8,
-        "change_pct": -0.83,
+        "current_rate": 1487.5,
+        "change_pct": -0.72,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -4429,7 +4429,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1485.8
+          1487.5
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -4582,7 +4582,7 @@
         "capital": "Kyiv",
         "population": "32.4백만 명",
         "gdp": "229.4십억 USD",
-        "inflation": "11.5%",
+        "inflation": "10.0% (2026.09)",
         "unemployment": "13.5%",
         "min_wage": "UAH 8,647 / 월급 (2026-07-01 시행)",
         "min_wage_note": "",
@@ -4777,8 +4777,8 @@
         "capital": "Cairo",
         "population": "110.1백만 명",
         "gdp": "442.9십억 USD",
-        "inflation": "12.0%",
-        "unemployment": "6.9%",
+        "inflation": "13.9% (2026.09)",
+        "unemployment": "5.8% (2026 Q2)",
         "min_wage": {
           "display": "약 7,000파운드 / 월",
           "note": "공공부문 기준(참고치)"
@@ -4975,8 +4975,8 @@
         "capital": "Rome",
         "population": "58.9백만 명",
         "gdp": "2,701.7십억 USD",
-        "inflation": "1.7%",
-        "unemployment": "6.1%",
+        "inflation": "4.2% (2026.09)",
+        "unemployment": "6.2% (2026.08)",
         "min_wage": "법정 최저임금 없음 (단체협약으로 결정)",
         "min_wage_note": "",
         "sites": [
@@ -4989,8 +4989,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1485.8,
-        "change_pct": -0.83,
+        "current_rate": 1487.5,
+        "change_pct": -0.72,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -5017,7 +5017,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1485.8
+          1487.5
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -5170,8 +5170,8 @@
         "capital": "Tokyo",
         "population": "122.7백만 명",
         "gdp": "4,342.0십억 USD",
-        "inflation": "2.8%",
-        "unemployment": "2.4%",
+        "inflation": "1.9% (2026.08)",
+        "unemployment": "2.5% (2026.08)",
         "min_wage": {
           "display": "¥1,121 / 시간",
           "note": "2026년 전국 가중평균, 지역별 상이(도쿄 ¥1,226)"
@@ -5187,8 +5187,8 @@
         "is_base": false,
         "unit_base": 100,
         "decimals": 1,
-        "current_rate": 833.5,
-        "change_pct": -1.36,
+        "current_rate": 834.5,
+        "change_pct": -1.24,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -5215,7 +5215,7 @@
           886.8,
           860.1,
           858.3,
-          833.5
+          834.5
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/JPYKRW=X",
@@ -5244,14 +5244,14 @@
           "original_title": "Japan's Keidanren to Formulate Vision for 2050"
         },
         {
-          "title": "Chevrolet의 일본 시장 Corvette V8 Tourer Special Edition은 단 15대만 생산됩니다.",
-          "source": "autoevolution",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVlVRbEtOUlMwN0xtTFc2SVFwZVowYUxqNGRvVGNYQ0E3eUdqUDZaaEJDb3dXYnlERjdtWnFVaTNQVUhjNWpJLUVWNTN5RWJmOTN5Y0tYaWRidldlYjNyMFNBNXhZcld4V3BwMlI3UkxGd1Zqd0hOQU44R2VzT292aWVNQURHVzdkQ1BCVXp2SlYxdmNzcEQ0RGtxUUx1bkFvX3k4MXdFTFN5LVp6VFVsQ2JkSXhGT3Exak1SUks5WW9tOUVMXzBaM2YwQWJnSm1ZQXc?oc=5",
+          "title": "다카이치 일본 총리, 엔화 약세·고금리 비판 일축",
+          "source": "CNBC",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1JVnBSTjI4Y21rVlR6Y1laVmg1VVJKQkNKTFh0ZXlrQWRrUUtBbWhUMmJlVUZXYVFmY1NEM3BaaU12ZHBVdWduajRlMVpFZTBiTDNDVnZxZTdJQ041V1J3clNKc1ZNRVJweC11MWpNWnhidHfSAXhBVV95cUxOUWgzZ3hhZUJVYXZRMWFFOWc0UjJrOGszMklNdzVidTBrb3ZkWG5PQW5nQUQxcVU1RS1sTkZDZmlHbnVwRUprN1UxZlhIendadzduQ0V6bXdBemdaYTdBd25rTURiNnl1RTlZdVM2ZFBybmFmZXVvWVA?oc=5",
           "summary": "",
           "published": "2026-10-19",
           "lang": "en",
           "translated": true,
-          "original_title": "Chevrolet's Japan-Market Corvette V8 Tourer Special Edition Is Limited to Merely 15 Units"
+          "original_title": "Japanese Prime Minister Takaichi rejects criticism around weak yen and high interest rates"
         }
       ],
       "hr_trends": [
@@ -5368,8 +5368,8 @@
         "capital": "Prague",
         "population": "10.8백만 명",
         "gdp": "428.0십억 USD",
-        "inflation": "2.6%",
-        "unemployment": "2.7%",
+        "inflation": "2.5% (2026.09)",
+        "unemployment": "5.0% (2026.09)",
         "min_wage": "CZK 22,400 / 월급 (2026-07-01 시행)",
         "min_wage_note": "",
         "sites": [
@@ -5382,8 +5382,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 2,
-        "current_rate": 61.56,
-        "change_pct": -0.42,
+        "current_rate": 61.17,
+        "change_pct": -0.64,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -5410,11 +5410,11 @@
           67.69,
           66.17,
           62.77,
-          61.56
+          61.17
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/CZKKRW=X",
-        "asof": "2026-10-19",
+        "asof": "2026-10-20",
         "stale": false
       },
       "headlines": [
@@ -5563,8 +5563,8 @@
         "capital": "Santiago",
         "population": "20.2백만 명",
         "gdp": "402.2십억 USD",
-        "inflation": "4.1%",
-        "unemployment": "8.5%",
+        "inflation": "4.1% (2026.09)",
+        "unemployment": "9.6% (2026.08)",
         "min_wage": {
           "display": "약 539,000페소 / 월",
           "note": "2025년 기준(참고치)"
@@ -5761,8 +5761,8 @@
         "capital": "Astana",
         "population": "20.6백만 명",
         "gdp": "397.9십억 USD",
-        "inflation": "8.4%",
-        "unemployment": "4.7%",
+        "inflation": "9.3% (2026.09)",
+        "unemployment": "4.5% (2026 Q2)",
         "min_wage": {
           "display": "약 85,000텐게 / 월",
           "note": "2025년 기준"
@@ -5778,8 +5778,8 @@
         "is_base": false,
         "unit_base": 100,
         "decimals": 1,
-        "current_rate": 293.4,
-        "change_pct": -3.68,
+        "current_rate": 293.6,
+        "change_pct": -3.62,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -5806,7 +5806,7 @@
           309.2,
           305.3,
           318.6,
-          293.4
+          293.6
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/KZTKRW=X",
@@ -5929,14 +5929,14 @@
               "published": "2026-10-17"
             },
             {
-              "title": "대통령기록관, 카자흐스탄 대통령기록보존소와 기록관리 협력 업무협약 체결",
+              "title": "인천 남동구, 중소기업 15개사 카자흐스탄 시장개척 지원…11월 알마티 파견",
               "desc": "",
               "source": "여성종합뉴스",
-              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9TVnhheU02S3kxSjQ2SFFkY2tMam9TNTNNaEFZcUJ2WUt6U0lJOFp3X2hNTnFXTG9OXzU3dkduVkM4LTB5SE9LTHVQalBZaEVBZVFidm1jbzZtUQ?oc=5",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90QlE2OGRBZW45dTNESzNZV3R1N2hwQ3BHanp4cmEzckE4dXlKbHhVVkFZS0s4cDJ3dXJOMWJKbUZXT3ZTbG5ZSTBxSUtkVHdxclZOXzlMSEM5dw?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
-              "published": "2026-10-14"
+              "published": "2026-10-13"
             }
           ]
         }
@@ -5959,8 +5959,8 @@
         "capital": "Ottawa",
         "population": "41.4백만 명",
         "gdp": "2,490.3십억 USD",
-        "inflation": "2.4%",
-        "unemployment": "6.9%",
+        "inflation": "3.1% (2026.09)",
+        "unemployment": "6.5% (2026.09)",
         "min_wage": {
           "display": "약 CAD 17.75 / 시간",
           "note": "연방부문 기준, 주(州)별로 상이"
@@ -5976,8 +5976,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 940.4,
-        "change_pct": -0.41,
+        "current_rate": 941.6,
+        "change_pct": -0.29,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -6004,7 +6004,7 @@
           1013.9,
           990.8,
           952.0,
-          940.4
+          941.6
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/CADKRW=X",
@@ -6157,8 +6157,8 @@
         "capital": "Bogotá",
         "population": "53.4백만 명",
         "gdp": "572.7십억 USD",
-        "inflation": "5.2%",
-        "unemployment": "9.3%",
+        "inflation": "6.3% (2026.09)",
+        "unemployment": "9.4% (2026.08)",
         "min_wage": {
           "display": "1,423,500페소 / 월",
           "note": "2025년 기준"
@@ -6174,8 +6174,8 @@
         "is_base": false,
         "unit_base": 100,
         "decimals": 2,
-        "current_rate": 41.99,
-        "change_pct": -0.02,
+        "current_rate": 42.03,
+        "change_pct": 0.07,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -6202,7 +6202,7 @@
           45.5,
           43.02,
           40.51,
-          41.99
+          42.03
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/COPKRW=X",
@@ -6210,6 +6210,16 @@
         "stale": false
       },
       "headlines": [
+        {
+          "title": "콜롬비아 판사, 박물관 청소로 인한 시위 촉발 후 역사적 유물 보호 명령",
+          "source": "The Washington Post",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaDI2OU5idVR2Uy1EM0N0ZURmU25HdXBUakVIdVVWTFNKZHp2MWFSRXNyaUJIV0czSFVMWXczaHNtc2NZSGtQRnBwbDJmdWtSOWtsVEFXSkw4bTl1S2RiclpmMmFRMzBSMWUyYjNJMllXQTIzRGNhdEZVdE9HaVJHRVUyZ0FtOS1DRkZ5bUtiMkh3MUhvU0V1dlVXU21OZ3VpckJaZUYwdDJLOTN1aFZrQXZiWVFBTmVaSVlIOERxYXRJQTVrYWtZOVF3Zm5JTWRFMWNUNzY1YUlMeFpm?oc=5",
+          "summary": "",
+          "published": "2026-10-20",
+          "lang": "en",
+          "translated": true,
+          "original_title": "Colombia judge orders protection of historical artifacts after museum purge sparks protests"
+        },
         {
           "title": "극우 대통령이 국립박물관 작품을 철거하자 콜롬비아에서 수백명의 시위가 벌어졌다.",
           "source": "Hyperallergic",
@@ -6229,16 +6239,6 @@
           "lang": "en",
           "translated": true,
           "original_title": "Colombia reignites territorial dispute with Nicaragua over Caribbean islands"
-        },
-        {
-          "title": "누가 콜롬비아의 이야기를 전할 수 있나요? 역사적 기억을 둘러싼 최전선에 선 국립박물관",
-          "source": "The City Paper Bogotá",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZE5IYW94NUdMSWlJaWJfS2xDUVc2STRiWllzS2pGcDNoOExiUGN4OHUyQ0gzc2Nsd3BZVjUwR2FiVk1SSFgwNGEwc0VwOGNaQk44SDZMby1TeGFQR3ZqZnBNNVp0WWNQMHhVOUFNNHRidUF0RWg3RnAtbFZNa1BJaGZGYXB3U1RSMVY0Q2ZHeXZSN1V6dVBlRWlyajNZOXBYYi1qZnhGMzZsUjFhUU5TUy1xcUo1cjlEWHpOT0JB?oc=5",
-          "summary": "",
-          "published": "2026-10-20",
-          "lang": "en",
-          "translated": true,
-          "original_title": "Who Gets to Tell Colombia’s Story? National Museum on Frontline Over Historical Memory"
         }
       ],
       "hr_trends": [
@@ -6355,8 +6355,8 @@
         "capital": "Zagreb",
         "population": "3.9백만 명",
         "gdp": "115.9십억 USD",
-        "inflation": "3.8%",
-        "unemployment": "6.0%",
+        "inflation": "4.7% (2026.09)",
+        "unemployment": "3.4% (2026.08)",
         "min_wage": "EUR 1,050 / 월급 (2026-07-01 시행)",
         "min_wage_note": "",
         "sites": [
@@ -6369,8 +6369,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1485.8,
-        "change_pct": -0.83,
+        "current_rate": 1487.5,
+        "change_pct": -0.72,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -6397,7 +6397,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1485.8
+          1487.5
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -6510,16 +6510,6 @@
               "published": "2026-10-06"
             },
             {
-              "title": "팬들이 결혼식 사진 촬영을 마치고 떠나는 크로아티아 신혼부부 투어",
-              "desc": "",
-              "source": "Union-Bulletin",
-              "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSUxxNnduWDN5am5ySkFiczkyZFp1SjdBbkNpM0pkWUl1T05NRklPWjZ3bXJmaWttcE1RTGctTmVWVzlVWmpjYzd6TzZxd0ZaaE9jaXY4aWl6ZE5sUk9wNzFteXBIa2YwbzVqZnpNTUJIZy1VRmhVd1drUC16RVhxQzBTcW0yaEM2R3R1VWF5N3hoMWI2UGk4SHRnSnRPa0JaSzlsbldZYUJkWGI1YmNhZ2RaRm1Jb2xyaDI5U0ItMGdMajNzZk1pWVNpTDduQW0zam5CZVA0MkMyNkZ4dVd4REhLODQtMkRwZkhJUEFZcw?oc=5",
-              "lang": "en",
-              "translated": true,
-              "original_title": "US newlyweds tour Croatia after fans photobomb their wedding shoot",
-              "published": "2026-10-08"
-            },
-            {
               "title": "크로아티아에서 열리는 MED9 서밋.",
               "desc": "",
               "source": "elysee.fr",
@@ -6527,6 +6517,16 @@
               "lang": "en",
               "translated": true,
               "original_title": "MED9 Summit in Croatia.",
+              "published": "2026-10-07"
+            },
+            {
+              "title": "크로아티아에서 700명에 가까운 사람들이 모여 희망과 선교의 안식일을 보내고 있습니다 – tedNEWS Network",
+              "desc": "",
+              "source": "Trans-European Division",
+              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdjRyblBrbFZmVERaVTdzYWtPUml2QTBsWW4tRUd4SjhjR3pMS2hjWmhWaEtFb0l5UlZ3RHdMMzlsRzFOck9wOS15TjY1cW9SS3dZV1piUHVfampVOGx0dm9vOXBKcjhOM3dzNlFyTDIzZHZoQ3pSN1ZqcERTOWV1NENCc1ZqTV9pVlV2bVRvcEZYSDBvNG9iSkJ3?oc=5",
+              "lang": "en",
+              "translated": true,
+              "original_title": "Nearly 700 Gather in Croatia for a Sabbath of Hope and Mission – tedNEWS Network",
               "published": "2026-10-07"
             }
           ]
@@ -6550,8 +6550,8 @@
         "capital": "Bangkok",
         "population": "71.6백만 명",
         "gdp": "599.1십억 USD",
-        "inflation": "0.8%",
-        "unemployment": "1.0%",
+        "inflation": "2.8% (2026.09)",
+        "unemployment": "1.0% (2026 Q1)",
         "min_wage": {
           "display": "1일 400바트",
           "note": "2025년 기준, 지역별 상이"
@@ -6567,8 +6567,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 2,
-        "current_rate": 39.48,
-        "change_pct": -0.98,
+        "current_rate": 39.52,
+        "change_pct": -0.89,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -6595,7 +6595,7 @@
           42.55,
           41.63,
           40.27,
-          39.48
+          39.52
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/THBKRW=X",
@@ -6624,14 +6624,14 @@
           "original_title": "Thailand Becomes First to Launch Microsoft’s 19-Country AI Jobs Initiative"
         },
         {
-          "title": "새로운 비즈니스 테스트에 직면한 태국의 기업 리더: 책임감 있는 성장",
-          "source": "News-Press NOW",
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQ3Bvbm9YZzNiV0ZLSTlKTXFtUC1ldVlmdGNDaUphcEtFRE1tOURLb251N1JZb0RpeTFCdThENS1qYUxMOUl3RjUtVUxZXy1IQmtrenFnT193eHk5OUVid1p0WDBhZllDN3gzTi16Ykl1MGFpeDAtY2hMNHJEUUlFOWR4eDU4d2lGU3dfQUt2T0tJNlpTZjRDQkVTOWFhUFhiRUtWNkZRMnNuZlk1VjhFamRMQ0VEckJBUWtLeEhOZEhzZUhUcDl1d0hiZDRxWE9wZGxDSFU0dGlSRlA2VW9GaFM4V3BZZUp3bWVneEdMQkFsMzdXVENrMWdTcGtoWmxJcFdz?oc=5",
+          "title": "태국, 투자 급증 이후 데이터 센터 붐 규제 경쟁",
+          "source": "www.briefasia.com",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNN3VtUGtGNkNNQVVjWjRIb1dSajh5dl9Pc1ZBVE5idzRrNkR2YjBkY2dMY3RyS0dfYUhYcHRYN3JjZ2FIMGdxNGxpMzE0SEtEOFp2aXFIcHoycHhUOVRUbWZDZjQyQVNaWV9OR3J2RVZseXNXbDdKMFdBdU4xaFFSUkVBc29NZWg3NTJPS2xrSVNVSlNsWG1BTG1wZ3ltV0ljMmc?oc=5",
           "summary": "",
-          "published": "2026-10-19",
+          "published": "2026-10-20",
           "lang": "en",
           "translated": true,
-          "original_title": "Thailand’s Corporate Leaders Face a New Business Test: Growth with Responsibility"
+          "original_title": "Thailand Races to Regulate Data Centre Boom After Investment Surge"
         }
       ],
       "hr_trends": [
@@ -6718,14 +6718,14 @@
               "published": "2026-10-19"
             },
             {
-              "title": "태국은 노동력 감축을 위해 조기 퇴직 프로그램을 시행할 계획입니다.",
+              "title": "태국 치앙마이 카지노 보너스 재진입 조건 확인",
               "desc": "",
-              "source": "Vietnam.vn",
-              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMXEwZmR1ZmRMUWhlcHljVld6UFE5WmZ5eVdKb25VWlBXaXZKbTYtN3FiQ2stelB4MVFreV9TakpxQ0NQR0JEdXVYWWc0b2NzVXlyRjZLSm5iZW5JOVFIdzNHb2tLcHJtaFBZVkVLaVQ5azlYRmstNDR3ZWhJS1BEb1hBYy1ZRmd5SDhfeUZqUlJoWkpMREJpaXVLOUZzQQ?oc=5",
+              "source": "Calgary Roughnecks",
+              "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQQVNsTmtySXdwOXlKR0EwRV9sLTZNb3NDY1owdkJFODd3YkdMZGJsc0ktTDFqV2ZMMnRTVnAzY2hibU1ONlFZME5WdzJRWDZIN0tNQTA5UzkzUlRVR0I3YXM5aUxBdG00NE56eHhfSWM0cV95VjRmSEpkQWp4Mm4wTDVONE5XUlJ4clFJdkwwVG1wRmM1cjhCdTJiWHVYRGs0TmVVT1MwT1dySHhmX1ZtSHRLWTluenQ4RHIwX0poYmNXQThCWUJqNTg2WS1xdU1za2NWYTdfdGUtUndsSGlZa0tjTHotZ2ZfMlJmeUlZUThnRXg2aW4wTUxnUjNnQkdtcm04SDZfVDQtTlhxek4zU0J5Zk1VZHRzeFBRWkJrSjgxdXN3bkctdm1lM0FYaTFKWGJKOG5qX3lMR0R4ZmtsMWl5M1gwX3NhVVVsUFNYWGg1ZlMtdloxQWRWNmhhT2dFNWdaVndyNG5rVjdOS1UwdXhILXppZ1JZ?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
-              "published": "2026-10-11"
+              "published": "2026-10-07"
             }
           ]
         }
@@ -6748,8 +6748,8 @@
         "capital": "Ankara",
         "population": "86.2백만 명",
         "gdp": "1,818.0십억 USD",
-        "inflation": "38.0%",
-        "unemployment": "8.6%",
+        "inflation": "29.7% (2026.09)",
+        "unemployment": "7.8% (2026.08)",
         "min_wage": "TRY 33,030 / 월급 (2026-07-01 시행)",
         "min_wage_note": "",
         "sites": [
@@ -6762,8 +6762,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 2,
-        "current_rate": 26.93,
-        "change_pct": -0.56,
+        "current_rate": 26.77,
+        "change_pct": -0.58,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -6790,11 +6790,11 @@
           29.91,
           28.54,
           27.56,
-          26.93
+          26.77
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/TRYKRW=X",
-        "asof": "2026-10-19",
+        "asof": "2026-10-20",
         "stale": false
       },
       "headlines": [
@@ -6836,6 +6836,16 @@
           "tag_class": "bg-rose-100 text-rose-700",
           "items": [
             {
+              "title": "신형 베이온 튀르키예 생산…하이브리드 더해 유럽 B-SUV 선두권 추격",
+              "desc": "",
+              "source": "한국신용신문",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxbGlXUnR0V2RtVzNrMUtqSTl3c2V1WjJOamVnVktyem4xZktOZk9IOWdRb2UtYm45cjhTR3VOVEhiTHBiWW5SWFdtbDNfZmc3TlhNTUlEX0RkUXp1U2ViTXBDdFJ5UjI0MUZJ?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-13"
+            },
+            {
               "title": "현대차, 튀르키예 이즈미트 공장서 아이오닉3 생산…유럽 소형 전기차 시장 본격 공략",
               "desc": "",
               "source": "글로벌이코노믹",
@@ -6854,16 +6864,6 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-18"
-            },
-            {
-              "title": "신형 베이온 튀르키예 생산…하이브리드 더해 유럽 B-SUV 선두권 추격",
-              "desc": "",
-              "source": "한국신용신문",
-              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxbGlXUnR0V2RtVzNrMUtqSTl3c2V1WjJOamVnVktyem4xZktOZk9IOWdRb2UtYm45cjhTR3VOVEhiTHBiWW5SWFdtbDNfZmc3TlhNTUlEX0RkUXp1U2ViTXBDdFJ5UjI0MUZJ?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-13"
             },
             {
               "title": "현대차, 튀르키예서 ‘아이오닉 3’ 생산 시작⋯이즈미트 공장 2억5000만유로 투자",
@@ -6943,7 +6943,7 @@
         "capital": "Panama City",
         "population": "4.6백만 명",
         "gdp": "96.5십억 USD",
-        "inflation": "1.0%",
+        "inflation": "2.8% (2026.08)",
         "unemployment": "7.4%",
         "min_wage": {
           "display": "업종별 상이",
@@ -6960,8 +6960,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1325.6,
-        "change_pct": -0.59,
+        "current_rate": 1326.8,
+        "change_pct": -0.5,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -6988,7 +6988,7 @@
           1420.6,
           1377.1,
           1350.5,
-          1325.6
+          1326.8
         ],
         "source": "Yahoo Finance (USD 1:1 고정환율)",
         "url": "https://finance.yahoo.com/quote/USDKRW=X",
@@ -7044,16 +7044,6 @@
               "published": "2026-10-13"
             },
             {
-              "title": "파나마를 뒤흔드는 강력한 지진",
-              "desc": "",
-              "source": "crossroadstoday.com",
-              "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbmlpdXpTSVdfaU9MdVppSGZwR0VpcGE0TGh3Nm90YlpYMU5tZlg3cmN6ZTZpUWh3R2NWd0hCNzlRTHF1M0hDc0ROTUQ3cmZmdG41VlNKc0VyemF6UjNQb2dVU1FxRUVoTmRDaWNvS242SXVNd1lCM0RaY1RYNlEzMy1BTFNOcndxTWdXMlNKVXZYNDQ4REplRlgtanF3dDhyZ2RnZ0hVQWlqSEh4Y1lRU0pMdTRCRHFyakJmYjlpVUp3TGJYSDNlR3Axdw?oc=5",
-              "lang": "en",
-              "translated": true,
-              "original_title": "Powerful earthquake shakes Panama",
-              "published": "2026-10-10"
-            },
-            {
               "title": "규모 7.6의 지진이 파나마를 뒤흔들고 주민들을 외부로 보냅니다.",
               "desc": "",
               "source": "SuaraGarut.ID",
@@ -7072,6 +7062,16 @@
               "translated": true,
               "original_title": "Panama Earthquake Shakes Live Television Broadcasts",
               "published": "2026-10-10"
+            },
+            {
+              "title": "콜롬비아, 파나마 지진 이후 쓰나미 위협 배제",
+              "desc": "",
+              "source": "SuaraGarut.ID",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14N0NzdnpuUjUya1VuMW1HZTFtTlRQMEwxMlhGNDFjemtKeUZHNWNaSlFYNnpxMUExUk4xOHEtcFpjRXFyR2hzVzlFNjY4ZDQzNE84SlY2MC00c3BNN1kzM1gtNGhDTWtmNlE?oc=5",
+              "lang": "en",
+              "translated": true,
+              "original_title": "Colombia Rules Out Tsunami Threat After Panama Earthquake",
+              "published": "2026-10-10"
             }
           ]
         },
@@ -7085,6 +7085,16 @@
               "desc": "",
               "source": "KBS 뉴스",
               "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFZ3RTQlNMS0FLUms4NWxPVTUzMXlHYVEydy0zaVZTTUhobUhoTjgzZFhKWHBKSkdfdUtvaUdhVE9VZS02dWJ2T1MxRUdrckpONUZmUXpHXzhwaTg?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-10"
+            },
+            {
+              "title": "파나마 남서부서 7.6 강진…수도 파나마시티 건물 흔들려",
+              "desc": "",
+              "source": "중앙신문",
+              "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNekw2S3FmVElEWC1qTnN6a2wtQVRRR050bllpTlFGbDVnVDhiNEZvSWYtUndaRV9rUGU5YVRaNDM3akEtSVZlTkhTVTQ1dnc4VTA0UERGOHFEUjZlMmFMNml6RExQdGlNbkdwVC1OczBrQ1hqQjRhaFFUbDMwVklSWU9YZlFhQXZ3cV9zaC1oNHU0ZGdDd2t2Uzh0SDJJYWp6N1VFV0psc1g0dVdFTExaNnpPUEIxSDd1eHl6VWFvTEtjUkxTaDNqRFJJY3hvQkEzbjVnYnFkZWwzdjRFT1hMNlRMUS1xZFFuSGM1d2tlRGY0bUJSTERmSEtPN2VpTGh6cm5hazdNQ2NGeS1mYVhUd0Y4eFIwSmpNZmRrWVZDX0I3NlI1NmN6WTBzVWRMeTF4YVFaRXFyX3R5US00UzItbXl0cm1oWndiT1JjU3FtOUl2SkxZMFRrckV5Y01RVnpsUFE?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
@@ -7109,16 +7119,6 @@
               "translated": true,
               "original_title": "M7.7 earthquake strikes southern Panama",
               "published": "2026-10-09"
-            },
-            {
-              "title": "파나마 페이퍼스, 10년 만에 파나마, EU 조세 피난처 '블랙리스트'에서 제외",
-              "desc": "",
-              "source": "International Consortium of Investigative Journalists - ICIJ",
-              "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZU0tTHFIVFU2Ui1MSV9EUjFTWG0xYzdxQTFfNHBwNFQtQ2JfQ3puN1UwRi1sSlpZSmo0cUU5anJEMV90ZWFoMGMzdEJrWUZVdXZ6NEpiajA4dnRhQ3QzNU8yam5MX1h6Vk1qVjkxSEp1QTJuYzBybkFGaUpoV1BfT3FRSGtYY2w3cnd1aTJNbVFlVzJpMldyejFROWl0ZjVjdUVEVnJJYXA1WGV6ZzJqWmsyeUtOLWFQNDFJa3pnSmxQUmVMenc?oc=5",
-              "lang": "en",
-              "translated": true,
-              "original_title": "Panama removed from EU’s tax haven ‘blacklist’ a decade after the Panama Papers",
-              "published": "2026-10-16"
             }
           ]
         }
@@ -7141,8 +7141,8 @@
         "capital": "Warsaw",
         "population": "36.3백만 명",
         "gdp": "1,133.1십억 USD",
-        "inflation": "3.9%",
-        "unemployment": "2.9%",
+        "inflation": "4.1% (2026.09)",
+        "unemployment": "5.8% (2026.08)",
         "min_wage": "PLN 4,806 / 월급 (2026-07-01 시행)",
         "min_wage_note": "",
         "sites": [
@@ -7155,8 +7155,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 340.3,
-        "change_pct": -0.66,
+        "current_rate": 342.6,
+        "change_pct": -0.52,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -7183,11 +7183,11 @@
           380.3,
           367.9,
           350.9,
-          340.3
+          342.6
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/PLNKRW=X",
-        "asof": "2026-10-20",
+        "asof": "2026-10-19",
         "stale": false
       },
       "headlines": [
@@ -7259,14 +7259,14 @@
               "published": "2026-10-16"
             },
             {
-              "title": "삼성SRA자산운용·GS건설 폴란드 합작사, EU 승인 받아…부동산 투자 탄력",
+              "title": "[K-금융 글로벌 전략 2026] [폴란드·헝가리] 폴란드 누비는 신한은행의 '금융 메신저'",
               "desc": "",
-              "source": "더구루",
-              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MT3dpUHdHaE5ETW4zR2w2SDlvWWZjX1lrOWdRMjRieUhQeEdTNEkzNEFDVXhCdUV5cGRtaHZOZHlKZUZyWE9xdTMyYVJtOTR4bjRucHVfM1ZIMUFaWnZ3aE8zQQ?oc=5",
+              "source": "블로그",
+              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YZ3QtZjU4aEExVlZaSlA3dDBUUDdRdnRkeS1pbUVxMmRET0RtUHFKTG95bTZUcXI1R3RDajZjU3ZjR1pfelFQWW5URDhXSTlldDN1dmV6Y2k0N1o0WUFKdTBtQmdDcEhJMThtQ191aWdPWEFnRXVBTThMdWtVb0E?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
-              "published": "2026-10-08"
+              "published": "2026-10-16"
             }
           ]
         },
@@ -7336,8 +7336,8 @@
         "capital": "Paris",
         "population": "69.1백만 명",
         "gdp": "3,554.2십억 USD",
-        "inflation": "1.4%",
-        "unemployment": "7.4%",
+        "inflation": "3.1% (2026.09)",
+        "unemployment": "8.3% (2026 Q2)",
         "min_wage": "EUR 1,867 / 월급 (2026-07-01 시행)",
         "min_wage_note": "",
         "sites": [
@@ -7350,8 +7350,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1485.8,
-        "change_pct": -0.83,
+        "current_rate": 1487.5,
+        "change_pct": -0.72,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -7378,7 +7378,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1485.8
+          1487.5
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -7427,21 +7427,11 @@
               "title": "[김훈기 칼럼] 중국車, 유럽의 심장 독일과 프랑스까지 '거침없는 질주'",
               "desc": "",
               "source": "다나와 자동차",
-              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fZ3lOTTIxSFU5b08tOFdLLUp5bG4tMnRGZGJzRmtiWFJmNU5KOENtV3VpVi1GZlZsNXFXY3hoODdyNVdReTFXb1pfTlZSNGdVa3FvQndOOVFFOTZoNkpZTVhzMnpTY3dLTlhZ?oc=5",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ETlk2R09CUUZWMm0xbjFqVEI5NTRWSHlqVEVkcTJ2VlJOQ1ZZWWdEbFpxVTE0bnVPajdxNnFlRGl5VU8wZzJPVnMwX0J3czJsU1ZOMlQ5dE0xcDFaSTlOWlR0NnBoVzB2SGc?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
               "published": "2026-10-14"
-            },
-            {
-              "title": "독일·프랑스, 내연기관 규제 완화…영국산 차량도 ‘유럽산’ 지원",
-              "desc": "",
-              "source": "한겨레",
-              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWh2el9yQlN6NVNudG8zOVhTbTRaeGZwekpXdGNRLXJXaUgzQ2lkaFR0aUZHMEEwbndBdnVESUVXbndZUTFUWGRBSldJcmJiOF9fcjZhTmltdl9SdVdEdERSMndIbGxPMmZGR2xIRGxGaHo4SXFrMzhUekhrUzJjcG5n?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-16"
             },
             {
               "title": "중국 자동차 “어쩌나···프랑스·독일, ‘유럽산’ 빗장",
@@ -7452,6 +7442,16 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-19"
+            },
+            {
+              "title": "독일·프랑스, 내연기관 규제 완화…영국산 차량도 ‘유럽산’ 지원",
+              "desc": "",
+              "source": "한겨레",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRWh2el9yQlN6NVNudG8zOVhTbTRaeGZwekpXdGNRLXJXaUgzQ2lkaFR0aUZHMEEwbndBdnVESUVXbndZUTFUWGRBSldJcmJiOF9fcjZhTmltdl9SdVdEdERSMndIbGxPMmZGR2xIRGxGaHo4SXFrMzhUekhrUzJjcG5n?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-16"
             },
             {
               "title": "[정구민의 톺아보기] 프랑스 3사, 파리서 꺼낸 '브랜드 유산'",
@@ -7531,8 +7531,8 @@
         "capital": "Canberra",
         "population": "28.1백만 명",
         "gdp": "2,110.7십억 USD",
-        "inflation": "2.8%",
-        "unemployment": "4.2%",
+        "inflation": "4.0% (2026.08)",
+        "unemployment": "4.7% (2026.09)",
         "min_wage": {
           "display": "A$26.44 / 시간",
           "note": "2025~26년 기준"
@@ -7548,8 +7548,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 924.9,
-        "change_pct": -0.51,
+        "current_rate": 925.8,
+        "change_pct": -0.41,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -7576,7 +7576,7 @@
           998.1,
           986.1,
           944.2,
-          924.9
+          925.8
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/AUDKRW=X",
@@ -7605,14 +7605,14 @@
           "original_title": "Verkada Completes IRAP Assessment for Data Classified up to PROTECTED in Australia"
         },
         {
-          "title": "ASX 최고 책임자, 호주가 아시아 금융 허브에 뒤처질 위험이 있다고 말함",
+          "title": "Citi Australia CEO는 헤지 도구로서 국채가 광택을 잃고 있다고 말합니다.",
           "source": "Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdXhyVmxRNHhNaDBCOEJSS01PRnlIdWFrRkxqYkJRRE9GYWdFS1gyOV84bjBFNlA4Wno5RjhtX19ZZHdjNUNBMUpNOXdERVE5SXN0SnV4Z1RQMzVzSmdNZDJhM09ya2NKVFJkSWxQM3B3U2ZOQTRtemE2ek5wNW1ieGQ5d0pZYjhfVzJrT0J1YjRJNTNGRlhmbVkwckc0Z3N6RGljckpCbjhwS0FpTDZ0amNpUjM0Zw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjdvS2s1bWV6SlRqdVkxd3JKYmpOc2l5VjJWM2l3b0ZQbWMyMTZUQ0R4cjdZS0FDNWxxTThIbUJDdS1mT1prT0hCRmlRMXF2WGV3c1ItM3BJelJDd2lNWERwUkRYVDA3WWxjMnRmcUhKdGFFUy14NUl0TDk1TE5SVTZTemJ5c3FlUDVPVE9Rb1ZmXzVVaUVLY1ZTNFUzQmFvSmFxdmF5M0k4ekprUG9zTFBQZw?oc=5",
           "summary": "",
           "published": "2026-10-20",
           "lang": "en",
           "translated": true,
-          "original_title": "ASX Chief Says Australia Risks Falling Behind Asian Finance Hubs"
+          "original_title": "Treasuries Losing Luster as Hedge Tool, Citi Australia CEO Says"
         }
       ],
       "hr_trends": [
