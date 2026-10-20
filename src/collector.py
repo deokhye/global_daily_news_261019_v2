@@ -327,16 +327,55 @@ def load_auto_profiles() -> tuple[dict, str]:
 
 AUTO_PROFILES, AUTO_PROFILES_ASOF = load_auto_profiles()
 
+CONFIG_DIR = os.path.join(BASE_DIR, "config")
+
+
+def _read_pipe_csv(path: str) -> list:
+    import csv
+    with open(path, "r", encoding="utf-8-sig", newline="") as f:
+        return [{(k or "").strip(): (v or "").strip() for k, v in row.items()}
+                for row in csv.DictReader(f, delimiter="|")]
+
+
+def load_fixed_config() -> dict:
+    """config/countries.csv(수도)·sites.csv(거점)·country_codes.csv(ISO3→ISO2) 를 읽어
+    {ISO2: {"capital": str, "sites": [..]}} 로 돌려준다. 수도·거점은 수집 대상이 아닌 고정값이라
+    국가 프로필 파이프라인 실행 여부와 관계없이 이 파일 값을 바로 화면에 쓴다."""
+    try:
+        iso2_of = {r["iso3"].upper(): r["iso2"].upper()
+                   for r in _read_pipe_csv(os.path.join(CONFIG_DIR, "country_codes.csv")) if r.get("iso2")}
+        out = {}
+        for r in _read_pipe_csv(os.path.join(CONFIG_DIR, "countries.csv")):
+            iso2 = iso2_of.get(r.get("iso3", "").upper())
+            if iso2:
+                out[iso2] = {"capital": r.get("capital", ""), "sites": []}
+        for r in _read_pipe_csv(os.path.join(CONFIG_DIR, "sites.csv")):
+            iso2 = iso2_of.get(r.get("iso3", "").upper())
+            if iso2 in out and r.get("site_name"):
+                out[iso2]["sites"].append(f"{r['site_name']} ({r['city']})" if r.get("city") else r["site_name"])
+        return out
+    except FileNotFoundError:
+        return {}
+    except Exception as e:  # noqa: BLE001
+        log.warning(f"config/ 고정 데이터(수도·거점) 로드 실패 — 메타데이터 값 사용: {e}")
+        return {}
+
+
+FIXED_CONFIG = load_fixed_config()
+
 
 def build_profile(country: dict, cached: dict) -> dict:
     """프로필 카드 값. 총인구·GDP·인플레이션·실업률·최저임금은 자동 수집 결과
     (output/country_profile.json)를 우선 쓰고, 값이 없으면('-') 기존 메타데이터로 채운다.
-    수도는 한글 표기를 위해 메타데이터 값을 유지하고, 거점은 config/sites.csv 기준을 쓴다."""
+    수도·거점은 config/countries.csv·sites.csv 값을 우선 쓴다(없으면 메타데이터)."""
     meta = country.get("meta_profile", {})
     cached_profile = (cached or {}).get("profile", {})
     auto = AUTO_PROFILES.get(country.get("code", "").upper(), {})
+    fixed = FIXED_CONFIG.get(country.get("code", "").upper(), {})
 
     def pick(key):
+        if key == "capital" and fixed.get("capital"):
+            return fixed["capital"]
         v = auto.get(key) if key in PROFILE_FIELDS else None
         if not _is_bad_value(v) and v != "-":
             return v
@@ -1462,8 +1501,9 @@ def collect_country(country: dict, cache_by_code: dict, fx_series: dict) -> dict
     code = country["code"]
     cached = cache_by_code.get(code, {})
     seen: set = set()
+    fixed_sites = FIXED_CONFIG.get(code.upper(), {}).get("sites") or []
     auto_sites = AUTO_PROFILES.get(code.upper(), {}).get("sites") or []
-    offices = copy.deepcopy(auto_sites or country.get("offices", []))
+    offices = copy.deepcopy(fixed_sites or auto_sites or country.get("offices", []))
     result = {
         "code": code, "region": country["region"], "name_kr": country["name_kr"],
         "name_en": country["name_en"], "currency": country["currency"], "flag": country["flag"],
