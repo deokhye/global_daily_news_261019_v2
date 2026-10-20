@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T09:13:19.139562+09:00",
-  "generated_at_display": "2026-10-20 09:13 KST",
-  "as_of_display": "2026-10-20 09:13 KST 수집",
+  "generated_at": "2026-10-20T09:47:09.991315+09:00",
+  "generated_at_display": "2026-10-20 09:47 KST",
+  "as_of_display": "2026-10-20 09:47 KST 수집",
   "regions": [
     {
       "key": "ALL",
@@ -249,8 +249,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1326.9,
-        "change_pct": -0.49,
+        "current_rate": 1325.8,
+        "change_pct": -0.57,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -277,7 +277,7 @@
           1420.6,
           1377.1,
           1350.5,
-          1326.9
+          1325.8
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/USDKRW=X",
@@ -285,16 +285,6 @@
         "stale": false
       },
       "headlines": [
-        {
-          "title": "그리어 대사는 유타 공장을 방문하면서 미국의 산업 부흥을 촉진하는 트럼프 대통령의 무역 프로그램의 성공을 강조합니다.",
-          "source": "United States Trade Representative (.gov)",
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQaGlLU0FDVnFYakw1eHFFal9ONTE5Smc3cXpYelhwNFhXYmRSbXNEVWJoVFRuWi1keXJ3QmZDb1ptSmRuNmpDNmU2bVZLTjFIVzRVaEQ3cDNyZVZwazVvQVZkNlIyYTgyN3Vmd0dvQmQtSlVPQnpzSmU0SWVRUHVyLUZJSlE5U0UtRUJ3UVF6VERmeVBwY25IUkw0Tmc0dEpxZUozZmVpdExsNzd5Vl94Mll3c3UyRWFpb0l4bDZJWk03ckNldWlGU0FqRUlXZWlHQnVObWZ4azhsUUEyaExqNzRRelVBNHU4RjJVVkxReXlHWER1WXZvaDBGOE1YUlJQTHBR?oc=5",
-          "summary": "",
-          "published": "2026-10-20",
-          "lang": "en",
-          "translated": true,
-          "original_title": "Ambassador Greer Highlights the Success of President Trump’s Trade Program in Fueling America’s Industrial Resurgence While Touring Utah Plants"
-        },
         {
           "title": "한국이 미국과 기록적인 무역흑자를 기록할 궤도에 올라 있다. 이것이 한국의 문제다.",
           "source": "Korea JoongAng Daily",
@@ -314,6 +304,16 @@
           "lang": "en",
           "translated": true,
           "original_title": "Energy Market Assessment: United States Energy Price Outlook Natural Gas Outlook Supply/Demand Assessment October 2026"
+        },
+        {
+          "title": "루비오는 중앙아시아와의 미국 관계 및 무역을 증진하기 위해 우즈베키스탄에 있습니다.",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOd2RwQnViVm5KT0VONkphRjkwQkRfSF9FSHlzeWxEUGdndlZjRVo4aFY3U21jNzlJQklUOGNxb042c0t2b3ljanBNUWRwRW16a3lNc0lQdVM5VWlMbXRoU1ZWcnMtcjMzemlJeDhFcW9GWW5mOXRya0ZHQl9wWDhkaFVsRUFFWmdnSDNCTHYzdU5CdW0tWWlEQ3p3YjNPekdDV1E?oc=5",
+          "summary": "",
+          "published": "2026-10-19",
+          "lang": "en",
+          "translated": true,
+          "original_title": "Rubio is in Uzbekistan to promote US ties and trade with Central Asia"
         }
       ],
       "hr_trends": [
@@ -333,20 +333,20 @@
               "published": "2026-10-19"
             },
             {
-              "title": "베트남 빈패스트, 2028년 미국 전기 버스 시장 진출",
+              "title": "중국 지리자동차, 캐나다 진출 본격화…미국 규제 피해 북미 공략",
               "desc": "",
-              "source": "다나와 자동차",
-              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mVTR3OURfX2hZQTlERGZvU0twQnZlWjFWdl96ZEw5ZndBdmttZldib0FrMDNCUkZrWU9Gem40eGpTQnRVMm5rdTB1WkgyOUFrWXVwUE1zN3hQaVNOeE05WWRsMzF0UlY2QTg4?oc=5",
+              "source": "알파경제",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsS1psR3hIUkl1NEZjUDB3eEFSdEtXajVWLU5mV19jaXViNGVrRVpVOVdBSWRydnlRM05HQ3JYMjR6bnV3dHhwWnVoVHNLTnhMZFc4WTVURDJVT1d4N2hnQ1hSUDRNcnZNQWs4ZWZ3?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
               "published": "2026-10-12"
             },
             {
-              "title": "중국 지리자동차, 캐나다 진출 본격화…미국 규제 피해 북미 공략",
+              "title": "현대자동차 ‘디 올 뉴 투싼’ 미국 뉴욕서 글로벌 무대 첫선",
               "desc": "",
-              "source": "알파경제",
-              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsS1psR3hIUkl1NEZjUDB3eEFSdEtXajVWLU5mV19jaXViNGVrRVpVOVdBSWRydnlRM05HQ3JYMjR6bnV3dHhwWnVoVHNLTnhMZFc4WTVURDJVT1d4N2hnQ1hSUDRNcnZNQWs4ZWZ3?oc=5",
+              "source": "국민기자뉴스",
+              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kLW8yUlNOMFNXa1BPcHJrSy1sRG1EX3IwM2gzMDM5d21IT3pyblFBQ2lGekhzeVF4Q25GZm1FR0w4Qk9zX0Fpdkd3akdrVGRaYm9ZcVQySEIwYWNIa01Fdjh4SdIBZ0FVX3lxTE1hYmxacHFFZTlKSWdnb25JT1FmSWZmeF9UM3FscEhSZzU5eHJXZXJSeUVCNnFZdWcxdTBkT0pMYi1keGxHQ2NPMlRqMnk3c2FTWWU3SmFDUHBZSkIwNjA1X3FrWlR3ZXc?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
@@ -390,6 +390,16 @@
               "published": "2026-10-15"
             },
             {
+              "title": "프린스턴 박사도 2300곳서 퇴짜…미국 고용시장 ‘얼어붙은 취업문’",
+              "desc": "",
+              "source": "www.dt.co.kr",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9lYVo5RXRtc2dLa0F2SkdjRTFMWDdNNmxOLVJpRTFlanJ3aTRkODhDajlnTTRaUnNoeFpCbVpoTnZMYzdCUVZMUUtQOEdUdw?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-19"
+            },
+            {
               "title": "미국 고용지표 부진에 10월 연준 금리인상 가능성 약화…9월 CPI와 달러 전망에 시장 관심 이동",
               "desc": "",
               "source": "VT Markets",
@@ -398,16 +408,6 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-07"
-            },
-            {
-              "title": "미국 빅테크는 감원으로 체질 개선…한국 기업은 파업·노동입법에 발목",
-              "desc": "",
-              "source": "미디어펜",
-              "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fZTkxRGlUbnl3Vzc5VHpGbEVJVDBEQXUxWmJWZ1hJZUd4aWNxU3ZNUWZKNFVuMjZuM3RXeFp1OHZneC1YRmR5WGFEYVVWalQ0OWJwQ9IBWEFVX3lxTFBsZEhncVVCM2Z3SXZlb1ZRNDRYWVlacE9hNVVIYl9DUVR4U2NwLU1hLUhkLTJ3b3o2SUl0X3h4MWNKZ1NTbXRXQWxQaWFyUFNvYm8zWm1yOTk?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-11"
             }
           ]
         }
@@ -449,8 +449,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1488.1,
-        "change_pct": -0.68,
+        "current_rate": 1487.9,
+        "change_pct": -0.69,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -477,7 +477,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1488.1
+          1487.9
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -553,14 +553,14 @@
               "published": "2026-10-13"
             },
             {
-              "title": "“폭스바겐마저 이 지경”…中 저가차에 밀려 독일 공장 4곳 폐쇄 위기",
+              "title": "중국 자동차 “어쩌나···프랑스·독일, ‘유럽산’ 빗장",
               "desc": "",
-              "source": "마켓인",
-              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qcE1MaEhzRlQwTVA3a0o5LW9UTzl6RmRmcS1RXzVja2FYZHg0VmtOekZKUWdDSmNMUnN0eER1Q081Mi1iY1ZXUFI0U1V5UHdvV3F3RldxUFBrUWlZcnE3SWltcUxOenRsLXpFNURfTXNDbFk?oc=5",
+              "source": "시사주간",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pbmZzUGgwVHRpMERZcjZfSVRya0UtcFBqOGxSMzZ6Rl8xWWlNcDh4NW8yaDBrcm91ZV96UHdJZWhweG4zRjR2bHdTOUFqT0U0djNIRWRiR2RPNzdQY3JpQ2xCb193TTVaNFZsaw?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
-              "published": "2026-10-12"
+              "published": "2026-10-19"
             }
           ]
         },
@@ -570,6 +570,16 @@
           "tag_class": "bg-indigo-100 text-indigo-700",
           "items": [
             {
+              "title": "'독일 자존심' 폭스바겐, 2030년까지 임금 동결 추진…노조 발칵 - 머니투데이",
+              "desc": "",
+              "source": "머니투데이",
+              "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0Q0JRVEF6YVhMckNKZjF0Z0lBRTdDX2s3XzVBVXY4ZWRXb3htUGhZZXFYdXlpc0tXTnBSUmZjR2FFOGZxYnY4UzdsdUpFcjNnSmV3THhVUk9NZlBZRUhjcklFcDU0VnZzUmN6VWRn0gFuQVVfeXFMUDRDQlFUQXphWExyQ0pmMXRnSUFFN0NfazdfNUFVdjhlZFdveG1QaFllcVh1eWlzS1dOcFJSZmNHYUU4ZnFidjhTN2x1SkVyM2dKZXdMeFVST01mUFlFSGNySUVwNTRWdnNSY3pVZGc?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-20"
+            },
+            {
               "title": "독일 금속·전기 노사, 5% 임금 인상 협상 첫판 진전 없이 종료",
               "desc": "",
               "source": "글로벌이코노믹",
@@ -578,16 +588,6 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-09"
-            },
-            {
-              "title": "'독일 자존심' 폭스바겐, 2030년까지 임금 동결 추진…노조 발칵 - 머니투데이",
-              "desc": "",
-              "source": "머니투데이",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWb1FudU1PS1I2VXRiMTZMQm02TUs1empJeGF5ME9rRzVwMVFDR0RhZTlqaXNVWk81UFJwUDY4WWNyZ1FmeXdmYnF1WnhLMmlyR2oydnlqdUtlekROR1g1Ymx0elA4a09Kd1RlaGhQRFRFMkVFbEHSAXtBVV95cUxOMDlyOFVYZ3puVWZUTE9uRlRENHU3UU9jUkxOOG1PN1lqTmlNUk1lSE1odU5fQURLazlvM1hwSjBjUkxRMnI5VjFsZWk3VzN5Y0xYUXRGNTlIRWY0dXc2TjI5dXZGa3hiZ0trei1XNXp4RlVSdF82Ulh6YTg?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-20"
             },
             {
               "title": "도이체방크 CEO, 독일 경제 개혁 가속화 및 노동법 유연화 촉구",
@@ -786,6 +786,16 @@
               "published": "2026-10-15"
             },
             {
+              "title": "이수만 걸그룹 '중국 보아' 모친, 임금체불 사과…\"딸과 무관\" - 머니투데이",
+              "desc": "",
+              "source": "머니투데이",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9nQWQ5VTgxNVFQMDhvMlhaQkRSVG1tN3lsOW1RTVFUelFOcE1FNFM1Qk5yR0FfdHNZZXEzNkE1UEZJU0Q0RXB2TVQ4UXlUOEcxTl93SDV0WVI1VnVaVEZwZV9hNE51U1pPN1FYYWVxcWNrNm_SAXhBVV95cUxNTGZndW5jcjh5VVpsRlhhQ0pjTlpObkhaNTlWRTdGWWx4VUpPamFIc3FjRFVGQkx2NjBCaGR4ek93X0lheVBfOGZHYlIwV1g5THRobElUVmJOZFdJMURHWVhvUVQtSGV6SkVwNWNKVFJmTHZ2X202Tk4?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-15"
+            },
+            {
               "title": "[구리 가격] 칠레 광산 파업·중국 수요에 상승…LME 재고 6주 최저",
               "desc": "",
               "source": "산업일보",
@@ -804,16 +814,6 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-13"
-            },
-            {
-              "title": "소개 문구에서 놓치기 쉬운 조건, 중국계열 토토 먹튀",
-              "desc": "",
-              "source": "Calgary Roughnecks",
-              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE50SThNcmlSdU5jeDkxVWpaSDU1ZU1Lc1E3OVJVaktJTkhCblZSNmd5UURwcTdGeXRYbE9VNmxWSEs2VVpmNVhobTRwUTNjWHZ4STZPaUY1ZWhWczZQWjU3LU52TmJ3TW9IaUJ5Mm92dndJZw?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-08"
             }
           ]
         }
@@ -853,8 +853,8 @@
         "is_base": false,
         "unit_base": 100,
         "decimals": 1,
-        "current_rate": 410.7,
-        "change_pct": -0.41,
+        "current_rate": 410.3,
+        "change_pct": -0.52,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -881,7 +881,7 @@
           452.0,
           437.5,
           417.9,
-          410.7
+          410.3
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/HUFKRW=X",
@@ -1135,6 +1135,16 @@
               "published": "2026-10-12"
             },
             {
+              "title": "중 BYD, 인도네시아에 ‘전기차 생태계’ 수출…한국 업계 비상",
+              "desc": "",
+              "source": "경향신문",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tdmxyV0VudktGV2JqZUZlYllHQTlleVo0QW9VVWpsbHhScmdwRm1FdFBCNXpTV0NRN1EzcHpONW5YT3FzWkkwWDgtTzhrQk9ZYlNyVWJYUGRfd9IBX0FVX3lxTFBqRHNfbGtqTk9JZHN1VTIzWTNvU21mUkRiZVZzZ3RXdUduSVhrTmdQUGs4SkFnVVAxLS1ZdmJnZ19KbkthNWIydHAwMDVhdl9IVG5tejVmTmRWTnFmLWhB?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-19"
+            },
+            {
               "title": "현대차 인도네시아 '2027년 TKDN 60%' 자신감…배터리까지 현지 생산",
               "desc": "",
               "source": "PRESS9",
@@ -1153,16 +1163,6 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-08"
-            },
-            {
-              "title": "충전 대기 줄이는 전기차 경쟁… BYD, 인도네시아에 ‘플래시 충전’ 첫 해외 전개",
-              "desc": "",
-              "source": "에이빙",
-              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WRUFtdEpPQkFBZlRzVXRLT2VMejJmeWhsaXVVd2FldnRUaVZTNFA4MnFac2Fzem4zVThKNzEwNzZ6YnBScDRXb2cyRmNDdzZfODZmTjNlS1BHbm5wSFVnalZEME5ZRWvSAWtBVV95cUxNTGxzM3hqTUtVc2t4bHBwNFNBNUI1d0w4dXViNHNEUEdjOFRsN2lGMDlOTThHSXRrbFo1RzBvYXZaUEczSFptRDd2OWJCVU1oRHowNGpDQ1BnM19POFRGT3BNeDJYTGU4NFEycw?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-19"
             }
           ]
         },
@@ -1247,8 +1247,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1488.1,
-        "change_pct": -0.68,
+        "current_rate": 1487.9,
+        "change_pct": -0.69,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -1275,7 +1275,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1488.1
+          1487.9
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -1443,8 +1443,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 2,
-        "current_rate": 40.81,
-        "change_pct": -0.83,
+        "current_rate": 40.79,
+        "change_pct": -0.89,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -1471,7 +1471,7 @@
           43.83,
           43.52,
           42.4,
-          40.81
+          40.79
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/TWDKRW=X",
@@ -1527,6 +1527,16 @@
               "published": "2026-10-19"
             },
             {
+              "title": "\"딱 100대만\"…폭스바겐 골프 GTI 한정판 사전 계약",
+              "desc": "",
+              "source": "한국경제",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQeEZKRGc4alA0S0E1YlNVSC1oSndSeVp2ckhsOThpVS1yTm5vTmFIc2JfSV9SZWtTZVZ1azFPUzc3eGpVWlpUblhGUXpoNTNWazRhak5id1hsQQ?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-20"
+            },
+            {
               "title": "중국활동 대만연예인 차이캉융, 臺 민진당 캠프 참석 뭇매",
               "desc": "",
               "source": "뉴스핌",
@@ -1545,16 +1555,6 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-20"
-            },
-            {
-              "title": "2026년 9월 가장 적게 팔린 자동차 10종: 일부 차종은 단 3대만 팔렸습니다.",
-              "desc": "",
-              "source": "Vietnam.vn",
-              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV3QwRVluZVlhb1V4eHhFTUt0WHp4UlBKMTZQTDkyemtJamZFLVRCVy1zQTlfRzBoYXBjTU13MmQ1VVNud18tMGVjZFBua2tXQ0hOLXl4dXpyZ0hhYXNhNVVHT09tbVpDbzJ3eS1YXzJLVmZMUHh6NWFvTDN6dXVUclU3U3N6STQ?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-13"
             }
           ]
         },
@@ -1835,8 +1835,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 279.6,
-        "change_pct": -0.59,
+        "current_rate": 279.3,
+        "change_pct": -0.67,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -1863,7 +1863,7 @@
           312.4,
           303.8,
           290.5,
-          279.6
+          279.3
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/RONKRW=X",
@@ -2031,8 +2031,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 326.5,
-        "change_pct": -0.58,
+        "current_rate": 324.9,
+        "change_pct": -0.48,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -2059,23 +2059,23 @@
           348.6,
           342.1,
           330.9,
-          326.5
+          324.9
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/MYRKRW=X",
-        "asof": "2026-10-19",
+        "asof": "2026-10-20",
         "stale": false
       },
       "headlines": [
         {
-          "title": "WSJ 여론조사에 따르면 말레이시아의 9월 수출 성장은 둔화될 것으로 보인다 - Market Talk",
-          "source": "Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdllqeTE3eFRITVNSczRlN0JRZlI3WkhSWUdNdFVGa2tyeHZ4NnBrYTlmQU1MT1BSSVBXYnA4dnppT1dTZENaalJMa0htSTRVZS1TdkI1NTkxNGMtVDQyVEFyUVR4ZzhoekxMcXlOa1lqRU9kdFpGOGlNemY1cUdXMGhMVTUwVlBYdUk0SWdFV1M4OWtOZHNycnpuMlFBUXBGczl1WVI1Zw?oc=5",
+          "title": "말레이시아: 민간 의료 보험 포기가 급증하자 정부는 저렴한 건강 보험 계획을 준비합니다.",
+          "source": "Asia Insurance Review",
+          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNTGpyc2dTaHc3SXNzQUhjR0ZNekJnUDZydjRLY2liSzRjRHFybm5jQ0IzbW1CZGowVTV6Wll1YUtpUlRLaVhTUHNtVEVrcklYWnloLTJ4dVdGclVJdlo4a2ZOa0dnVFVtczV3Smd6bFNJTXYyaEN0SHFZX2R0alY5WXFza3VmRDllM2xUV0JtaHNibEdsaFZlZHZWaURMS2hIcWUtbVRzRHUtZFVwbG9EUUcxMUNwUXB5Umx0c2JrYngzcl9Kc3hUaXVGNGZVZjhuNTJzRVExWWR5LWk3Sm1yQWQ5UGNzb3o2TmppQVhjZGZjVzJDQzJjOU1TbmNUNkhVNUNqNEZUVXBzcjJka19Xb0I5T1RWcS1NZXFGQmJR?oc=5",
           "summary": "",
           "published": "2026-10-20",
           "lang": "en",
           "translated": true,
-          "original_title": "Malaysia's Export Growth Likely Slowed in September, WSJ Poll Shows -- Market Talk"
+          "original_title": "Malaysia: Government readies affordable health insurance plan, after surge in surrender of private health plans"
         },
         {
           "title": "아시아 시장 요약(일본 엔화, 인도 주식, Nidec, 말레이시아 AI 수출)",
@@ -2152,16 +2152,6 @@
           "tag_class": "bg-indigo-100 text-indigo-700",
           "items": [
             {
-              "title": "KAI, 말레이시아서 초등학교 시설 개선 봉사활동…양국 협력 강화",
-              "desc": "",
-              "source": "뉴스핌",
-              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5tSjNnWWFMSm1nMUdwb3o2ZWdpQkFZRlI2ajBXb0xvZlFmWVVfdGxNcDB2ZVFTUU5vN3VVQ2dZVkdBOGFmUWRnZUh4eXhDN056SGpJbDRJNUxkWmIw?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-16"
-            },
-            {
               "title": "말레이시아가 2022년에 아시아 최고의 코치를 고용하기 위해 매달 15억 VND를 지출한다는 것이 사실인가요?",
               "desc": "",
               "source": "Vietnam.vn",
@@ -2170,6 +2160,16 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-18"
+            },
+            {
+              "title": "KAI, 말레이시아서 초등학교 시설 개선 봉사활동…양국 협력 강화",
+              "desc": "",
+              "source": "뉴스핌",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5tSjNnWWFMSm1nMUdwb3o2ZWdpQkFZRlI2ajBXb0xvZlFmWVVfdGxNcDB2ZVFTUU5vN3VVQ2dZVkdBOGFmUWRnZUh4eXhDN056SGpJbDRJNUxkWmIw?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-16"
             },
             {
               "title": "선택한 설정을 되돌리는 한국 말레이시아 축구 토토 옵션 안내",
@@ -2227,8 +2227,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 2,
-        "current_rate": 72.04,
-        "change_pct": -0.38,
+        "current_rate": 71.97,
+        "change_pct": -0.48,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -2255,7 +2255,7 @@
           81.9,
           80.86,
           74.85,
-          72.04
+          71.97
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/MXNKRW=X",
@@ -2304,7 +2304,7 @@
               "title": "멕시코 9월 자동차 수출 12% 감소, 미 관세 여파로 생산·수출 동반 타격",
               "desc": "",
               "source": "다나와 자동차",
-              "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ReFZPRVVfTWdIaC1LSDlRQjFVZGhfcUJJdTR4bnpkc0ZMSjhvUTQ0NDBTaHFpMUtNR09jcUhvSE9JODl6NWc1aUdtSFEydWVsZVUxSFItU2NUZTFUVXc0TUZyOS1VQTlYOTl1eENLX1JIMlYyTzZv?oc=5",
+              "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRFl3MENhaEJ6aEhaaUdoeGhEa2NueEZJU0VSZ1I3TnhRWkxfcjhORk5SQm41QlA2RmFWcmEtZDJWSUtXY2d0NFpYM2lJOTEyV0c0ZTJoRXlfU196WXNKVmMwenZ6WjUtbmdzNVdXa0xoQTBJRlhLYmdrdzdkSWJiTg?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
@@ -2423,8 +2423,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 135.6,
-        "change_pct": -4.16,
+        "current_rate": 135.5,
+        "change_pct": -4.24,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -2451,7 +2451,7 @@
           151.4,
           153.1,
           143.9,
-          135.6
+          135.5
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/MADKRW=X",
@@ -2872,14 +2872,14 @@
           "original_title": "Trump set to renew demands on Brazil after presidential runoff"
         },
         {
-          "title": "브라질 아메리카나스, 파산절차 종료",
-          "source": "The Lufkin Daily News",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdU8ySFVKamJLR3pmOHhVc19pbmF4aEF6M3RzTUlSemttQlF6RVltN1VRaWo4NGFjUURvYVdmdEpuU0M3WWF2c0lueWNVOTkxWkxvRjBwUVMxa0dSYUx4WjdHT3REMjNSc28xOEZJREZPb1ZZclkwdy11eWRyUFhmM0Z5Nkp2aHh1cTZYblRPZkNjUlhROHJ6aTRfU0MxcURmQ1RoNk94aUJTNkFVcUlqSWJHLUxpVGdDaTd4eDYwTndyajdZZ2R5aFBxNjF1OTlIcmpNaVRYeU91X0hocW9pVQ?oc=5",
+          "title": "브라질 여론조사 토론에서 룰라와 보우소나루 무역 모욕",
+          "source": "Taipei Times",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBrUEEyX05RalFhWV96Q1NKeUlyaWplY1hBanZScGZSOVBPNHVYdnpDWmFxRldKZWZvd3AwR0RWZDNRS3RVSDVsZWxxSURCRmRqeWxrd1BESTI5YkJraEdTTFEyTHFha1FrT0NNQXBYOUpoUmhGWG41bg?oc=5",
           "summary": "",
           "published": "2026-10-20",
           "lang": "en",
           "translated": true,
-          "original_title": "Brazil's Americanas exits bankruptcy proceedings"
+          "original_title": "Lula, Bolsonaro trade insults in Brazil poll debate"
         }
       ],
       "hr_trends": [
@@ -2966,14 +2966,14 @@
               "published": "2026-10-16"
             },
             {
-              "title": "'남미의 윤석열'이 브라질 대선 1위, 이유는?",
+              "title": "삼성바이오에피스, 브라질 희귀질환 치료제 '솔리리스' 10년 공급",
               "desc": "",
-              "source": "프레시안",
-              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xQ3UyMnV2Si1WTTkyN1NhNzUtbXpfbWZDR3R5bEZKOUxfT1pyWjFWWUpQc3U3R0NHWVhSVEpNZFdaMGt2T1EzUDlBb1JXRWExMVRBR3pITUNwYmJsenN0V0V5b3o0ZmxXU2s4?oc=5",
+              "source": "비즈워치",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSRE9XZTNyWHFBUk1BN1Zjb0g0TnhJSk5HakdoTGlQU1RucmZMQTdUUkxpX3JQdVpiRmlGaC00cC16emdtMmhFLThUT09rbDVlWUk0WVlqaFFfay1FTHZkeUh5RUxJNGdZQkNfSmxxWQ?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
-              "published": "2026-10-13"
+              "published": "2026-10-20"
             }
           ]
         }
@@ -3011,8 +3011,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 353.7,
-        "change_pct": -3.53,
+        "current_rate": 353.4,
+        "change_pct": -3.61,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -3039,7 +3039,7 @@
           378.3,
           376.0,
           370.8,
-          353.7
+          353.4
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/SARKRW=X",
@@ -3152,16 +3152,6 @@
               "published": "2026-10-15"
             },
             {
-              "title": "후티 반군은 사우디아라비아의 타이푼 전투기를 격추했다고 주장했습니다.",
-              "desc": "",
-              "source": "Vietnam.vn",
-              "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS19LRDVZcG41QmlGcG9hcUM2VVJ4OEZvdGp6aGp5Q2daNUhxV2c5R1BZY241aEk1SDMyZk0weWZYMWRkOGd6XzFpWVVhLTJNVEppaWZZdmw3ZU02V0RieW9UcXZQczBKTkFad1FDbTF0WjBOUjc5WXFYVWZfdldEYjVBaWVMSWd5RWo4cA?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-15"
-            },
-            {
               "title": "수니 무슬림과 시아 무슬림은 왜 1,400년간 하나가 되지 못하는가 - 최근 사우디아라비아와 예멘 후티와의 갈등과 충돌을 지켜보며",
               "desc": "",
               "source": "한국공공정책신문",
@@ -3170,6 +3160,16 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-19"
+            },
+            {
+              "title": "후티 반군은 공격 중단을 위한 조건을 제시하며 사우디아라비아에 대한 보복을 경고했다.",
+              "desc": "",
+              "source": "Vietnam.vn",
+              "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTE83eXlwTDhfMkxlbHZUWWUyWHB3bEE5bFJhT0JMRzR5eUpTYUFjbHY4TjJ4d1NGNThqcjFGanZMN0tGUU5uSWhyRFRxTzAxdnpHdFZCQS1Za3E2VTVSV1Vwa3BhT3duMWJFTWdVbTZwRHUtbGNXZWN5SGdnVVBlSlVwbVBQUFFUaDlxWG9YWThzZFk?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-15"
             }
           ]
         }
@@ -3254,16 +3254,6 @@
           "original_title": "From protests to election, Serbia's students mount a challenge to populist strongman Vucic"
         },
         {
-          "title": "에어 세르비아, 마이애미 등 6개 신규 노선 취항",
-          "source": "EX-YU Aviation News",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWXo4alE3ck9Rb2N6NmNrM1U2WFY1SUtaS2g5RWcxdzBoRTJZRzhSS3d4Sk9obE1JQ2YyOWk2ckUwMVVHYjF0UGZRQ2xuNjQwVjIySkNOeUd5QkFzUmtvcE9nbnBNZXlzNlhnTlFKOWFtMjJHN2Myalc0bmFEcElsLUVfWQ?oc=5",
-          "summary": "",
-          "published": "2026-10-20",
-          "lang": "en",
-          "translated": true,
-          "original_title": "Air Serbia launching six new routes including Miami"
-        },
-        {
           "title": "2026년 선거: 갈림길에 선 세르비아",
           "source": "EPC, European Policy Centre",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5UZEx6eFlCaklaVmZXdjZiMzJtRVBhRzFubnk4YlVEZEdEZWlHbUsySTViaUVrbnBYOHRVQWpPaVBxR0x2MTlNSDhmdUs5Y0RwakZDT2REVW1XSndiUHFibXZfQlFpWXVHYXcwRDRHWXdJdw?oc=5",
@@ -3272,6 +3262,16 @@
           "lang": "en",
           "translated": true,
           "original_title": "Elections 2026: Serbia at a crossroads"
+        },
+        {
+          "title": "에어 세르비아, 마이애미 등 6개 신규 노선 취항",
+          "source": "EX-YU Aviation News",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWXo4alE3ck9Rb2N6NmNrM1U2WFY1SUtaS2g5RWcxdzBoRTJZRzhSS3d4Sk9obE1JQ2YyOWk2ckUwMVVHYjF0UGZRQ2xuNjQwVjIySkNOeUd5QkFzUmtvcE9nbnBNZXlzNlhnTlFKOWFtMjJHN2Myalc0bmFEcElsLUVfWQ?oc=5",
+          "summary": "",
+          "published": "2026-10-20",
+          "lang": "en",
+          "translated": true,
+          "original_title": "Air Serbia launching six new routes including Miami"
         }
       ],
       "hr_trends": [
@@ -3403,8 +3403,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 134.5,
-        "change_pct": -0.17,
+        "current_rate": 133.8,
+        "change_pct": -0.55,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -3431,11 +3431,11 @@
           148.9,
           143.4,
           135.2,
-          134.5
+          133.8
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/SEKKRW=X",
-        "asof": "2026-10-19",
+        "asof": "2026-10-20",
         "stale": false
       },
       "headlines": [
@@ -3552,16 +3552,6 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-19"
-            },
-            {
-              "title": "스웨덴 노조는 캠페인을 직장으로 가져가 극우파를 권력으로부터 밀어붙입니다.",
-              "desc": "",
-              "source": "Public Services International",
-              "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcEJWUlV1X3I5RGFrVHVWcXNCYnBHTmRfU3d3dFFOSGRYTXl6ZV93Y1hKNzY0ZEVFT3pkbFdxdGtzSWdyTFl5X1I5RVJONGNFN2w0WEZaT3JJRzZWTkVNb2h2Z1UtSEpjYnQ0Vm9fbjQ1QWI2YTJmRWYzX1g5SVlkYkpnZlFrNUV0dWsxRUt6elpOV0t2bGsydUZiMnA2dldzbXQ3dHRpME4xaHNUa3FZOWx4Ti14TWVybWpwMGJTOVhpdUREVUc4LS1ma0dRbnJWUVBKaUxGYjdQeHQtS0drekJn?oc=5",
-              "lang": "en",
-              "translated": true,
-              "original_title": "Swedish unions take campaign to the workplace and push the far-right from power",
-              "published": "2026-10-16"
             }
           ]
         }
@@ -3599,8 +3589,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1488.1,
-        "change_pct": -0.68,
+        "current_rate": 1487.9,
+        "change_pct": -0.69,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -3627,7 +3617,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1488.1
+          1487.9
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -3635,16 +3625,6 @@
         "stale": false
       },
       "headlines": [
-        {
-          "title": "스페인이 서둘러 세우타 이주민 잔고 해제를 추진하면서 인권에 대한 우려가 제기되고 있다.",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcHhVRndKQndRWEM0aUtFR1FmbU9HRDRmNFlwWkZtVE9ZdWR6UWp2Z2ZsOGw3b3JDXzZXOVJoelRQa1NIRUFPVmlySWRDTTJfT0theUFWOXFiZGdfLWtRelM3OHNSLVB3SUtvLWZSNVZIaUZkNFN3d3JkbHQxMDRXX19ZT0xkNVd6MmxKQ3kyWV95TWVhcy1qdnVMMWdoblUyaFg5NC14WjB5d1NOZUV1UQ?oc=5",
-          "summary": "",
-          "published": "2026-10-20",
-          "lang": "en",
-          "translated": true,
-          "original_title": "Spain's rush to clear Ceuta migrant backlog raises rights concerns"
-        },
         {
           "title": "스페인 선거 투표 추적기: 다음 총리는 누가 될까요?",
           "source": "The Economist",
@@ -3654,6 +3634,16 @@
           "lang": "en",
           "translated": true,
           "original_title": "Spain election poll tracker: Who will be the next prime minister?"
+        },
+        {
+          "title": "스페인이 서둘러 세우타 이주민 잔고 해제를 추진하면서 인권에 대한 우려가 제기되고 있다.",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcHhVRndKQndRWEM0aUtFR1FmbU9HRDRmNFlwWkZtVE9ZdWR6UWp2Z2ZsOGw3b3JDXzZXOVJoelRQa1NIRUFPVmlySWRDTTJfT0theUFWOXFiZGdfLWtRelM3OHNSLVB3SUtvLWZSNVZIaUZkNFN3d3JkbHQxMDRXX19ZT0xkNVd6MmxKQ3kyWV95TWVhcy1qdnVMMWdoblUyaFg5NC14WjB5d1NOZUV1UQ?oc=5",
+          "summary": "",
+          "published": "2026-10-20",
+          "lang": "en",
+          "translated": true,
+          "original_title": "Spain's rush to clear Ceuta migrant backlog raises rights concerns"
         },
         {
           "title": "스페인 동부 지역에 폭우로 홍수 피해 4명 사망",
@@ -3795,8 +3785,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1037.2,
-        "change_pct": -0.49,
+        "current_rate": 1037.1,
+        "change_pct": -0.5,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -3823,7 +3813,7 @@
           1108.0,
           1080.4,
           1057.3,
-          1037.2
+          1037.1
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/SGDKRW=X",
@@ -3833,8 +3823,8 @@
       "headlines": [
         {
           "title": "싱가포르, 안개와 관련된 인도네시아 기업에 대한 단속 확대",
-          "source": "Chico Enterprise-Record",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGMmtNN0U3NWpEenZqNnFrZjJodkoxVWFkbDVyd2U3NkZQTXR2cHhxQm0wWkdxWmNyMm9uWEdkaFoxVVFjQUI3RTJXbWRqcWlkT0Vndk11N0tkRTJNSHZnYmt5NTRHNWw2cklScg?oc=5",
+          "source": "The Press Democrat",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CS2Z3a1hwLXVBZFNxR2lBdENRMUplYXF6UTlCeDBySTkyR0c4WFREVExvNUgxTHM2TXJvVWJGbkZzS2lFd2sydEV2ODhSSkJIVi1mWEFNR055T0lySWxfVUVBWEo1SzNTOEJiQ18yckItQk90?oc=5",
           "summary": "",
           "published": "2026-10-20",
           "lang": "en",
@@ -3926,16 +3916,6 @@
               "published": "2026-10-06"
             },
             {
-              "title": "싱가포르 고용시장 19분기 연속 성장…한국 청년의 해외취업 기회는 어디에 있나",
-              "desc": "",
-              "source": "코리아투데이뉴스",
-              "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1qaFAxWXd5NGh4WFg0c2x0R3BYbnZuZUdFcUpVQ0x4SC1lSlRRQmZnT2E3ODZYTjRxSVZuUkdZQTdUSFJuLU5R?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-14"
-            },
-            {
               "title": "싱가포르 전국임금위, 저임금 노동자 6~8% 인상 권고…2021년 이후 최고",
               "desc": "",
               "source": "뉴스웍스",
@@ -3954,6 +3934,16 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-10"
+            },
+            {
+              "title": "유비소프트, '트라이얼스' 개발사 레드링스 폐쇄 추진…싱가포르 인력도 감원",
+              "desc": "",
+              "source": "지디넷코리아",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzZlFsMV9xTkhxR3RNNVJuNkt2RUxmdzBISEpPaVJzaVNJQU5XXzMwWjJscnllTU84eUFoWVdITV9UaUN5Z2NpRzF2MXlpRkUwTjFjeDlR?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-15"
             }
           ]
         }
@@ -3991,8 +3981,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 361.3,
-        "change_pct": -0.52,
+        "current_rate": 361.0,
+        "change_pct": -0.6,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -4019,7 +4009,7 @@
           386.9,
           375.1,
           367.8,
-          361.3
+          361.0
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/AEDKRW=X",
@@ -4038,14 +4028,14 @@
           "original_title": "Analysis: Algeria’s UAE Rupture Reveals a Foreign Policy Held Hostage by the Sahara"
         },
         {
-          "title": "후티 반군 확대에 대응하여 아랍에미리트와 사우디아라비아 간 전략적 협의 개시",
-          "source": "Atalayar",
-          "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNOXpwM1ZhMGQ4WG9MQ1dVNnRudkxUZVVjWUdOT0xaZFhsQ19VTWpueUdkZDRHdWhiaXFHUmRvNk9uMmxhQmlOTndUWFBrNHR3aEE0SDhyWUxlZWdtWUpnVDlWbVNLWXdOTXRFRGNGb2h1ajkteDcwbWc1TUR2VkcxWTZXOWZOT2RuU3JvOGxkRkNKNXJ3dHdBQ2hLMm5TNDJzOEJnQWwtcWZwbE1nMlV4Y0NEUW13Y2FtWW5RUmVBdE1MRnIzQXFZTXBGT0Y0QkVCTG02RlpWLW1pRjZZN1BKWndxdjdJNHdaVnNvdUJqUVJsVkE1UndHZ2RIRkl2RlZHdjRPeWo0SVladlBWRkR6RWh4M05RX21EdW9z?oc=5",
+          "title": "아부다비, 2029년 세계은행·IMF 연차총회 개최 계약 체결",
+          "source": "Devdiscourse",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONUpzZFVoYUQyZXpQWmtTdnZ3Z29teHd1Z2tOZF8yZjRmaW9CM2oyMlE0UWR2bl9CV2lyU3U1SzZjajBqTnVfM0drZzdZTDdTcWdtRzlBR1JzeFF0Q0dURnNBWDdlOTlRU2lUenJaUEZXMllzQnFuT0o0N1BhcEN4MlN3ck12YzB2TlA5aER0VjdFOUNuNUJTbERFX1VINWF3bzZBa3ZZbXpwbW5Vd0JGQzg5ZWdGUHI2Z0NrdTNkVGh6VkVIaTMtczBESFY1U0NJ0gHQAUFVX3lxTE41SnNkVWhhRDJlelBaa1N2dndnb214d3Vna05kXzJmNGZpb0IzajIyUTRRZHZuX0JXaXJTdTVLNmNqMGpOdV8zR2tnN1lMN1NxZ21HOUFHUnN4UXRDR1RGc0FYN2U5OVFTaVR6clpQRlcyWXNCcW5PSjQ3UGFwQ3gyU3dyTXZjMHZOUDloRHRWN0U5Q241QlNsREVfVUg1YXdvNkFrdlltenBtblV3QkZDODllZ0ZQcjZnQ2t1M2RUaHpWRUhpMy1zMERIVjVTQ0k?oc=5",
           "summary": "",
-          "published": "2026-10-20",
+          "published": "2026-10-19",
           "lang": "en",
           "translated": true,
-          "original_title": "Strategic Consultations Between the United Arab Emirates and Saudi Arabia Launched in Response to the Houthi Escalation"
+          "original_title": "Abu Dhabi Seals Deal to Host World Bank and IMF Annual Meetings in 2029 Event"
         },
         {
           "title": "아랍에미리트 (UAE) 는 사우디아라비아와 후티의 이익에 따라 예멘 분쟁에 재진입하기로 합의했다.",
@@ -4177,8 +4167,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1765.4,
-        "change_pct": -0.72,
+        "current_rate": 1765.1,
+        "change_pct": -0.73,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -4205,7 +4195,7 @@
           1912.2,
           1864.7,
           1787.6,
-          1765.4
+          1765.1
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/GBPKRW=X",
@@ -4271,16 +4261,6 @@
               "published": "2026-10-16"
             },
             {
-              "title": "기아, 영국 자동차 시장 판매 2위 달성…스포티지 판매 견인",
-              "desc": "",
-              "source": "한국소비자경제",
-              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmU2drWmJwMm91Vy1iTFE0eVVUMjZ4UnBZTUhselAyZmliQXM3VWhBQXFYcUJKQThUZVRiSHpIWWU4N1BRcXZUN3BoQmZzNVhYMnkxNE01UFJMa3V4MU9tZTA3WC11N1UtaHg00gFuQVVfeXFMTzRUVGI4aU56TGtiMDR4a2VkRzhoaGpFbWdTdU9ZVkNCajJPd1pjdnVzY3ZFSHRLek0zUHphQXVNcFYzYW5MRHl2YkZ2bzVpalU0ZEdGaHUyeVEyQzhaa24tbEcyY0U2Q0s1Y2lJS2c?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-07"
-            },
-            {
               "title": "지리자동차, 영국 진출 11개월 만에 판매 거점 100곳 계약… 누적 등록 1만 대 돌파",
               "desc": "",
               "source": "글로벌이코노믹",
@@ -4289,6 +4269,16 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-20"
+            },
+            {
+              "title": "기아, 영국 자동차 시장 판매 2위 달성…스포티지 판매 견인",
+              "desc": "",
+              "source": "한국소비자경제",
+              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmU2drWmJwMm91Vy1iTFE0eVVUMjZ4UnBZTUhselAyZmliQXM3VWhBQXFYcUJKQThUZVRiSHpIWWU4N1BRcXZUN3BoQmZzNVhYMnkxNE01UFJMa3V4MU9tZTA3WC11N1UtaHg00gFuQVVfeXFMTzRUVGI4aU56TGtiMDR4a2VkRzhoaGpFbWdTdU9ZVkNCajJPd1pjdnVzY3ZFSHRLek0zUHphQXVNcFYzYW5MRHl2YkZ2bzVpalU0ZEdGaHUyeVEyQzhaa24tbEcyY0U2Q0s1Y2lJS2c?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-07"
             }
           ]
         },
@@ -4373,8 +4363,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1488.1,
-        "change_pct": -0.68,
+        "current_rate": 1487.9,
+        "change_pct": -0.69,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -4401,7 +4391,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1488.1
+          1487.9
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -4606,14 +4596,14 @@
       },
       "headlines": [
         {
-          "title": "우크라이나가 여기에서 어디로 가는지 [비디오]",
-          "source": "Foreign Policy",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtZF9ETjdmTElBeGoxdjRiQk9BX1VSRDdEbC1uZTlUSUZNbXFhWU9LOEd5WW5oTlR1Q25CNm5rdWY4eHMwRlFVN1ZEb2FpbTE3QnRCNVdFRi1ESDRZQjF0VGVHZ0wtTDVOcHZROHVkcHVOanhiampF?oc=5",
+          "title": "우크라이나 무역의 구리선",
+          "source": "The Observatory of Economic Complexity",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tWGdQZ2UyMDlJSFJmdjA0clJFcWpYMi1LR3pnVDZNWTE1X1VXd0NzUmZvUjI1YkhUUHMxM1R1WnBNanhPTlMwdkRRLWUyQlpJQTcwZDVjc3lpTzI0cE5GZFJXbE1fRFlqV2oyQg?oc=5",
           "summary": "",
           "published": "2026-10-20",
           "lang": "en",
           "translated": true,
-          "original_title": "Where Ukraine Goes From Here [Video]"
+          "original_title": "Copper Wire in Ukraine Trade"
         },
         {
           "title": "공화당 의원들은 트럼프로부터 우크라이나를 구하기 위해 출격합니다",
@@ -4626,14 +4616,14 @@
           "original_title": "GOP lawmakers scramble to spare Ukraine from Trump"
         },
         {
-          "title": "우크라이나 젤렌스키, 록히드 마틴과 패트리어트 공급 가속화 논의",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcG13clNBcFBBcDFWUDJjdjExbF9hSlJKRVJ3cy1uZXUxN09LZGVYQWZQY0ZiTzhGMldrZUNsaGh0RFlNZ1ljOEZzRkdYVGhYTzVkay1jVXlDZjI2elltZ2wyMDFMUEJ0UnR6MzZxWFJCVUQ3N1NGUHhfTnQyY09pb0FIZWU2LUktZTF0bXY2SG5YV2FwUHY0OGdfMDlqSnVDVV9fWkVPT19PNzdHWjdudk1EV1BOWlpUOVVtSkhOSDFKaWxaR0dWRHFWRHFNZ095SVVJVjFkbnpLUQ?oc=5",
+          "title": "우크라이나가 여기에서 어디로 가는지 [비디오]",
+          "source": "Foreign Policy",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtZF9ETjdmTElBeGoxdjRiQk9BX1VSRDdEbC1uZTlUSUZNbXFhWU9LOEd5WW5oTlR1Q25CNm5rdWY4eHMwRlFVN1ZEb2FpbTE3QnRCNVdFRi1ESDRZQjF0VGVHZ0wtTDVOcHZROHVkcHVOanhiampF?oc=5",
           "summary": "",
           "published": "2026-10-20",
           "lang": "en",
           "translated": true,
-          "original_title": "Ukraine's Zelenskiy discusses speeding up supplies of Patriots with Lockheed Martin"
+          "original_title": "Where Ukraine Goes From Here [Video]"
         }
       ],
       "hr_trends": [
@@ -4961,8 +4951,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1488.1,
-        "change_pct": -0.68,
+        "current_rate": 1487.9,
+        "change_pct": -0.69,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -4989,7 +4979,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1488.1
+          1487.9
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -5008,6 +4998,16 @@
           "original_title": "Business and politics: how Italy drives the transatlantic trade in the U.S."
         },
         {
+          "title": "이탈리아, 북부와 남부에서 동시 시위에 직면",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pRFJ6Q1VEel9ibE41Y1BVTUV6NkxUeERwdkhPMWZSZHNNbDlfMGFyalQ5cVVLMGJhb3dSY2M2VkVRekZXZnppbkIzcnk3Y2JyVGkxWG5UUkRfMXBLdHZGODlEeEh4bi1pY2ZCOEhhZTdIZElYbE14WTFYOE5FZw?oc=5",
+          "summary": "",
+          "published": "2026-10-20",
+          "lang": "en",
+          "translated": true,
+          "original_title": "Italy Faces Parallel Protests in the North and South"
+        },
+        {
           "title": "정부가 군대 배치를 준비함에 따라 밀라노의 명품 매장은 새로운 불안에 대한 두려움으로 문을 닫습니다.",
           "source": "Reuters",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWNGMGIzTEZwQjVYM1BNU3lmemRQZTk3OGtQTnhXTWM0UXRFNXhqTTg3WFFQYXdQWVZZTUphR3FGZDd3SE5RaGZlTWdWZ1owRklLYnQzSWN5RlotVjY2OEdjMUtsUGpMZ1RxRk5QS1djT3hnbDZwR0lUSmVwZjlYX243eGIyRHpKLV80NkltM3NmZkk2ZEl0WGNGVEpGRHZUei1LRGJYMnRoME0?oc=5",
@@ -5016,16 +5016,6 @@
           "lang": "en",
           "translated": true,
           "original_title": "Milan luxury shops close for fear of new unrest as government prepares to deploy troops"
-        },
-        {
-          "title": "아내는 우리가 은퇴할 여유가 없다고 말합니다. 저는 그녀의 $ 8,000 이탈리아 여행에 거부권을 행사했습니다. 우리는 60대이고 $ 4백만을 가지고 있습니다. 계속 일하나요?",
-          "source": "MarketWatch",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbk9RQi1idGxlTTBFVDduazNoa3FJeEhQdkZYWEJIVnlDM1lmaDduVERvMUpMWG9VOXVsV18yOEs1WktYZ18xaEJBUTVybjZuX2VNYXZwejg4bjVlcGdvenhDbV9WbFh5Rm42M0I5ZlExXzQ3QnZ3cW8xUHJqd3p2VzhWTnNtVlZIVk9HZG5aWXRTZEN1b01FY3FHcGJlUC1qRjRhQ2cwTDRjd1FObEUwZkZYR1FLc0pUSVg2MGJ3?oc=5",
-          "summary": "",
-          "published": "2026-10-20",
-          "lang": "en",
-          "translated": true,
-          "original_title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?"
         }
       ],
       "hr_trends": [
@@ -5157,8 +5147,8 @@
         "is_base": false,
         "unit_base": 100,
         "decimals": 1,
-        "current_rate": 834.9,
-        "change_pct": -1.19,
+        "current_rate": 834.6,
+        "change_pct": -1.23,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -5185,7 +5175,7 @@
           886.8,
           860.1,
           858.3,
-          834.9
+          834.6
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/JPYKRW=X",
@@ -5353,8 +5343,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 2,
-        "current_rate": 61.21,
-        "change_pct": -0.57,
+        "current_rate": 61.17,
+        "change_pct": -0.64,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -5381,7 +5371,7 @@
           67.69,
           66.17,
           62.77,
-          61.21
+          61.17
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/CZKKRW=X",
@@ -5745,8 +5735,8 @@
         "is_base": false,
         "unit_base": 100,
         "decimals": 1,
-        "current_rate": 293.6,
-        "change_pct": -3.59,
+        "current_rate": 293.4,
+        "change_pct": -3.67,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -5773,7 +5763,7 @@
           309.2,
           305.3,
           318.6,
-          293.6
+          293.4
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/KZTKRW=X",
@@ -5941,8 +5931,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 941.5,
-        "change_pct": -0.29,
+        "current_rate": 941.7,
+        "change_pct": -0.27,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -5969,7 +5959,7 @@
           1013.9,
           990.8,
           952.0,
-          941.5
+          941.7
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/CADKRW=X",
@@ -6015,16 +6005,6 @@
           "tag_class": "bg-rose-100 text-rose-700",
           "items": [
             {
-              "title": "지리자동차, 2027년 캐나다 시장 진출 공식화",
-              "desc": "",
-              "source": "글로벌이코노믹",
-              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbUNCaEd2Vldydlo2ZXotWndGdTdadkUtbkx2V192THgxZkRYU1IwcUhOS1B6OVBxWVRBTTVSQVdpbFYyVUVaVWExVVAta3lKZHliNTVELUJFMWJzYThpaVNnbFBPNDJrcVlQZ1JlRDBKV0dPOVI5dnVjOWdJYWRGUWluVHRCTGJF?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-15"
-            },
-            {
               "title": "지리자동차, 2027년 차량 출시 목표로 캐나다 시장 진출",
               "desc": "",
               "source": "Investing.com 한국어",
@@ -6033,6 +6013,16 @@
               "translated": false,
               "original_title": "",
               "published": "2026-10-10"
+            },
+            {
+              "title": "\"2027년 첫 차량 출시\"… 中 지리, 캐나다 시장 전격 진출",
+              "desc": "",
+              "source": "글로벌이코노믹",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdkZTUW9iY2ZoRXBxSzNTbmFtN0xiSnZOdzlKYmhRWEt4cHprbzZqeDdIc2xhU0l6bWVLREZIZWJBNDIxaVJJRGVyMWNpbzg1Y3p4QWVVdXl6dk5aSW90R255OGJKNi1QNl8xbEo4TEVmWDlERlZSY1ByNklCN1BmZFJ6TG56dXM?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-11"
             },
             {
               "title": "중국 지리자동차, 캐나다 진출 본격화…미국 규제 피해 북미 공략",
@@ -6045,14 +6035,14 @@
               "published": "2026-10-12"
             },
             {
-              "title": "\"북미 방어선 뚫었다\"… 中 지리자동차, 2027년 캐나다 진출 전격 선언\"",
+              "title": "[일본 특징주] 토요타, 캐나다 공장서 렉서스 NX 12월 생산 개시",
               "desc": "",
-              "source": "스타뉴스",
-              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95WGpSVF9MYlBTWW9sRTlKZkpoUmVnUU9CdDJFWGZWaHV2LVRVOWFzdmRzcGhQMlVsZlRnSGRRSW5hUFdnZWVKMHFrU0poVUFrN1hmeHBHLVVJMTBmNHBfemVoNllEZUh1TGJiSFBnTDlXaTVnc3JQWWR1YXp6MHM?oc=5",
+              "source": "뉴스핌",
+              "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJNWtqWXdEVWFQSFp1alYzaVpVOFVRYWRNTlR0cFlHbzAxYnE1QUZNREZCS1JtUm1kbTU3UlJ3aDJwMi1EQk44N3dabnJPUVJjaUN0dk1BbG9JMU1a?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
-              "published": "2026-10-11"
+              "published": "2026-10-16"
             }
           ]
         },
@@ -6137,8 +6127,8 @@
         "is_base": false,
         "unit_base": 100,
         "decimals": 2,
-        "current_rate": 42.03,
-        "change_pct": 0.07,
+        "current_rate": 42.0,
+        "change_pct": -0.01,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -6165,7 +6155,7 @@
           45.5,
           43.02,
           40.51,
-          42.03
+          42.0
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/COPKRW=X",
@@ -6173,6 +6163,16 @@
         "stale": false
       },
       "headlines": [
+        {
+          "title": "콜롬비아 판사, 박물관 청소로 인한 시위 촉발 후 역사적 유물 보호 명령",
+          "source": "The Washington Post",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaDI2OU5idVR2Uy1EM0N0ZURmU25HdXBUakVIdVVWTFNKZHp2MWFSRXNyaUJIV0czSFVMWXczaHNtc2NZSGtQRnBwbDJmdWtSOWtsVEFXSkw4bTl1S2RiclpmMmFRMzBSMWUyYjNJMllXQTIzRGNhdEZVdE9HaVJHRVUyZ0FtOS1DRkZ5bUtiMkh3MUhvU0V1dlVXU21OZ3VpckJaZUYwdDJLOTN1aFZrQXZiWVFBTmVaSVlIOERxYXRJQTVrYWtZOVF3Zm5JTWRFMWNUNzY1YUlMeFpm?oc=5",
+          "summary": "",
+          "published": "2026-10-20",
+          "lang": "en",
+          "translated": true,
+          "original_title": "Colombia judge orders protection of historical artifacts after museum purge sparks protests"
+        },
         {
           "title": "극우 대통령이 국립박물관 작품을 철거하자 콜롬비아에서 수백명의 시위가 벌어졌다.",
           "source": "Hyperallergic",
@@ -6192,16 +6192,6 @@
           "lang": "en",
           "translated": true,
           "original_title": "Colombia reignites territorial dispute with Nicaragua over Caribbean islands"
-        },
-        {
-          "title": "누가 콜롬비아의 이야기를 전할 수 있나요? 역사적 기억을 둘러싼 최전선에 선 국립박물관",
-          "source": "The City Paper Bogotá",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZE5IYW94NUdMSWlJaWJfS2xDUVc2STRiWllzS2pGcDNoOExiUGN4OHUyQ0gzc2Nsd3BZVjUwR2FiVk1SSFgwNGEwc0VwOGNaQk44SDZMby1TeGFQR3ZqZnBNNVp0WWNQMHhVOUFNNHRidUF0RWg3RnAtbFZNa1BJaGZGYXB3U1RSMVY0Q2ZHeXZSN1V6dVBlRWlyajNZOXBYYi1qZnhGMzZsUjFhUU5TUy1xcUo1cjlEWHpOT0JB?oc=5",
-          "summary": "",
-          "published": "2026-10-20",
-          "lang": "en",
-          "translated": true,
-          "original_title": "Who Gets to Tell Colombia’s Story? National Museum on Frontline Over Historical Memory"
         }
       ],
       "hr_trends": [
@@ -6333,8 +6323,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1488.1,
-        "change_pct": -0.68,
+        "current_rate": 1487.9,
+        "change_pct": -0.69,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -6361,7 +6351,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1488.1
+          1487.9
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -6370,34 +6360,34 @@
       },
       "headlines": [
         {
-          "title": "크로아티아 Koncar, Crobex10이 사상 최고치를 경신했습니다.",
-          "source": "SeeNews",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZzdLSFRiczZxaExCSlFlUDVCZ25pUUJNUGtFTjl2OFo2cGU2LXVScFRxa2doYnRESnpMbER4bkJTd2FkRDhnLVZIV0NWLXdsLUg3RXFTYjR3WWhDdzJvU3VmY3U0UC1VZTNtVnBsMFJKTktGZ3BMVHJHVDN0SS1jUzRYZERyZVk?oc=5",
+          "title": "가뭄이 크로아티아의 송로 버섯 채집가들에게 영향을 미칩니다",
+          "source": "AP News",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcG5tQm9McS1EZEU1WlZiQzRnX2FQaHBSal9Dd0ZIeVZPN2pPY2d3MWRQVXgwVFBYc3htT3huSFQxOE1oNUtzMjE5Z0JCNzhxcXptckExck9GR3RKOEdOemJpTjV5OEUxMWh2TlRuOVVzNVJ2WFA5dWdCUTYxSm8yVlhxY1Q0VVZzdk9KR1M2ZkFvZUZCa01JUEYtNXh4S3k5aGc?oc=5",
           "summary": "",
           "published": "2026-10-20",
           "lang": "en",
           "translated": true,
-          "original_title": "Croatia's Koncar, Crobex10 set new all-time highs"
+          "original_title": "Drought impacts truffle hunters in Croatia"
         },
         {
-          "title": "비슈케크에 크로아티아 공화국 영사관 개관",
-          "source": "EGOV.KG",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE16VXRNQV96SHJyc1YzZkhKSHltZ1hmN1I2RS16Uk9hSUxPM1RTcjBxckFzVHJjOTNxZVN2UmpyakI3dDN3UFZUaTNCdGZPWXVKQVRyQ2t5WGM?oc=5",
+          "title": "크로아티아 대사관은 팀이 머물렀던 알렉산드리아 호텔에 스포츠 역사의 하루를 선사합니다.",
+          "source": "The Alexandria Brief",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN2pQRWlsN0ItOERhYWxFR3NQQ3dmOENMYzA5QWRUVHQwWjFtOXVOTVBwdmk0Ynh3MzZITkx4VVExR2tGcUk4emYzNzZITGpaVlNLQ3ZSSWlNVXlVWEF4d1luRXNqckQ2cy1PeU43ZjJWM09yNnhaOFlWcmNJbnJpQVNDZ0dSaFNUYmdrd1poRS1WZHh6M0k3RlRVckNrVU1fU3REUUFDWlJ6WjFyNUJxelNTN2xrQUQ0ZDJlZk9pSHlodll0?oc=5",
           "summary": "",
-          "published": "2026-10-19",
+          "published": "2026-10-20",
           "lang": "en",
           "translated": true,
-          "original_title": "Consulate of the Republic of Croatia Opens in Bishkek"
+          "original_title": "Croatian Embassy brings a day of sports history to the Alexandria hotel where its team stayed"
         },
         {
-          "title": "위기에 처한 크로아티아가 자급자족할 수 있을까요?",
-          "source": "Croatia Week",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc0l6Wmd1c2EzOFo3ZVBMVHlZSURiYmJiU0VCWkdmNHNvNFdhN2laUTNGaDgxZEFPa21nN2lmc3VnWGhuWkQ1V3o3Wnl2ZEhTVWpGMzZ0ZENoOVA2UXBGdUJIbGJqT0poUWFzY2Vnalg1c3pmNlJxMnlzNl9WUDFTRVFsMA?oc=5",
+          "title": "핀란드 팀, 크로아티아 세계 올리브 따기 챔피언십 우승",
+          "source": "upi",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYlYxNFA4VU5IZFZfa2JSaVd1RnMzZEpHVDA1T1RNY3gweEpLeDdmM2VucDY0N3FmOHBpajdhMDc3UENuZUo3a2x0N2t3djh5RkZKTEM3WUhxQzRRZmNodHBsUGo5cVpFb2hwbmFGRkRSWmxUV0hPTGRQQnkxT2FOU2ZTeFRLUXdGd2gtUHo2d1JFQ09YZERweG1jdjRWOThJek9LRmZn0gGrAUFVX3lxTFBsZURyd2dEWFE4ZERCSDNEXzBnQmpTTW1wUjNGamZxcFZ6SzB0eWVNdy0xanZjRjlUU01yaks3aXJPbXJ2aDRGTWQ1U3J6THpORmVZcHZsOWhTdmlXeDJCblktS3pUYWFBYU51RUljM2xRQTVralZHRklZdFBabjdFbzNGWXZnSGUwVVFYLTF2SDE3UXRVZkVZZGlHR2I3RXNCR0Y1WnFHN3B1bw?oc=5",
           "summary": "",
-          "published": "2026-10-19",
+          "published": "2026-10-20",
           "lang": "en",
           "translated": true,
-          "original_title": "Can Croatia feed itself in a crisis?"
+          "original_title": "Finnish team wins World Olive Picking Championship in Croatia"
         }
       ],
       "hr_trends": [
@@ -6406,6 +6396,16 @@
           "tag": "완성차·타이어 시장",
           "tag_class": "bg-rose-100 text-rose-700",
           "items": [
+            {
+              "title": "처음 읽는 게임 정보에서 찾을 크로아티아 카지노 핵심 내용",
+              "desc": "",
+              "source": "Calgary Roughnecks",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA0MnRvSExhd3RzSTB0ek94M0VuN1NtWW9zWlBPT1gtNE5BQWl3enNqZHdSV2VvaEk2NTIyNUNSMUwzd2JGeVRoX3dQTDRrdWw1OG44a2VoNVBZNFZnOElsTU95NHNnRlVpVW9FeFc4eUI?oc=5",
+              "lang": "ko",
+              "translated": false,
+              "original_title": "",
+              "published": "2026-10-07"
+            },
             {
               "title": "9월 크로아티아 신차 판매 3% 감소",
               "desc": "",
@@ -6435,16 +6435,6 @@
               "translated": true,
               "original_title": "Why Croatia and England’s behind-closed-doors game could be up to 75 per cent full - The Athletic",
               "published": "2026-10-06"
-            },
-            {
-              "title": "팬들이 결혼식 사진 촬영을 마치고 떠나는 크로아티아 신혼부부 투어",
-              "desc": "",
-              "source": "Audacy",
-              "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN1pJQkVHZHEzcHR2YWhVR19yOXZCSFk1Z215UlcyOUM3Z2hpVGlkZ2x3elB6SXNLX2xTNTZHLTB0NXd1T3ZMdlNneG5uTlF4TXV6Y2poMFJKR2pEeU1RcWNxVnVnbUt4U1lTYVRpcF9FUGZJU1pEOHVFU1M3Nl8yOFBRa1hCa2dnZnQteVhtbGFNZWhVUjNWVFNMeHc1WkhEdU9GY2NJSkdvNkVDVnA4R3dBQQ?oc=5",
-              "lang": "en",
-              "translated": true,
-              "original_title": "US newlyweds tour Croatia after fans photobomb their wedding shoot",
-              "published": "2026-10-08"
             }
           ]
         },
@@ -6474,6 +6464,16 @@
               "published": "2026-10-06"
             },
             {
+              "title": "팬들이 결혼식 사진 촬영을 마치고 떠나는 크로아티아 신혼부부 투어",
+              "desc": "",
+              "source": "Union-Bulletin",
+              "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSUxxNnduWDN5am5ySkFiczkyZFp1SjdBbkNpM0pkWUl1T05NRklPWjZ3bXJmaWttcE1RTGctTmVWVzlVWmpjYzd6TzZxd0ZaaE9jaXY4aWl6ZE5sUk9wNzFteXBIa2YwbzVqZnpNTUJIZy1VRmhVd1drUC16RVhxQzBTcW0yaEM2R3R1VWF5N3hoMWI2UGk4SHRnSnRPa0JaSzlsbldZYUJkWGI1YmNhZ2RaRm1Jb2xyaDI5U0ItMGdMajNzZk1pWVNpTDduQW0zam5CZVA0MkMyNkZ4dVd4REhLODQtMkRwZkhJUEFZcw?oc=5",
+              "lang": "en",
+              "translated": true,
+              "original_title": "US newlyweds tour Croatia after fans photobomb their wedding shoot",
+              "published": "2026-10-08"
+            },
+            {
               "title": "크로아티아에서 열리는 MED9 서밋.",
               "desc": "",
               "source": "elysee.fr",
@@ -6481,16 +6481,6 @@
               "lang": "en",
               "translated": true,
               "original_title": "MED9 Summit in Croatia.",
-              "published": "2026-10-07"
-            },
-            {
-              "title": "크로아티아에서 700명에 가까운 사람들이 모여 희망과 선교의 안식일을 보내고 있습니다 – tedNEWS Network",
-              "desc": "",
-              "source": "Trans-European Division",
-              "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdjRyblBrbFZmVERaVTdzYWtPUml2QTBsWW4tRUd4SjhjR3pMS2hjWmhWaEtFb0l5UlZ3RHdMMzlsRzFOck9wOS15TjY1cW9SS3dZV1piUHVfampVOGx0dm9vOXBKcjhOM3dzNlFyTDIzZHZoQ3pSN1ZqcERTOWV1NENCc1ZqTV9pVlV2bVRvcEZYSDBvNG9iSkJ3?oc=5",
-              "lang": "en",
-              "translated": true,
-              "original_title": "Nearly 700 Gather in Croatia for a Sabbath of Hope and Mission – tedNEWS Network",
               "published": "2026-10-07"
             }
           ]
@@ -6529,8 +6519,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 2,
-        "current_rate": 39.54,
-        "change_pct": -0.85,
+        "current_rate": 39.53,
+        "change_pct": -0.87,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -6557,7 +6547,7 @@
           42.55,
           41.63,
           40.27,
-          39.54
+          39.53
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/THBKRW=X",
@@ -6586,14 +6576,14 @@
           "original_title": "Thailand Becomes First to Launch Microsoft’s 19-Country AI Jobs Initiative"
         },
         {
-          "title": "새로운 비즈니스 테스트에 직면한 태국의 기업 리더: 책임감 있는 성장",
-          "source": "News-Press NOW",
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQ3Bvbm9YZzNiV0ZLSTlKTXFtUC1ldVlmdGNDaUphcEtFRE1tOURLb251N1JZb0RpeTFCdThENS1qYUxMOUl3RjUtVUxZXy1IQmtrenFnT193eHk5OUVid1p0WDBhZllDN3gzTi16Ykl1MGFpeDAtY2hMNHJEUUlFOWR4eDU4d2lGU3dfQUt2T0tJNlpTZjRDQkVTOWFhUFhiRUtWNkZRMnNuZlk1VjhFamRMQ0VEckJBUWtLeEhOZEhzZUhUcDl1d0hiZDRxWE9wZGxDSFU0dGlSRlA2VW9GaFM4V3BZZUp3bWVneEdMQkFsMzdXVENrMWdTcGtoWmxJcFdz?oc=5",
+          "title": "태국, 투자 급증 이후 데이터 센터 붐 규제 경쟁",
+          "source": "www.briefasia.com",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNN3VtUGtGNkNNQVVjWjRIb1dSajh5dl9Pc1ZBVE5idzRrNkR2YjBkY2dMY3RyS0dfYUhYcHRYN3JjZ2FIMGdxNGxpMzE0SEtEOFp2aXFIcHoycHhUOVRUbWZDZjQyQVNaWV9OR3J2RVZseXNXbDdKMFdBdU4xaFFSUkVBc29NZWg3NTJPS2xrSVNVSlNsWG1BTG1wZ3ltV0ljMmc?oc=5",
           "summary": "",
-          "published": "2026-10-19",
+          "published": "2026-10-20",
           "lang": "en",
           "translated": true,
-          "original_title": "Thailand’s Corporate Leaders Face a New Business Test: Growth with Responsibility"
+          "original_title": "Thailand Races to Regulate Data Centre Boom After Investment Surge"
         }
       ],
       "hr_trends": [
@@ -6680,14 +6670,14 @@
               "published": "2026-10-19"
             },
             {
-              "title": "태국 치앙마이 카지노 보너스 재진입 조건 확인",
+              "title": "태국은 노동력 감축을 위해 조기 퇴직 프로그램을 시행할 계획입니다.",
               "desc": "",
-              "source": "Calgary Roughnecks",
-              "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQQVNsTmtySXdwOXlKR0EwRV9sLTZNb3NDY1owdkJFODd3YkdMZGJsc0ktTDFqV2ZMMnRTVnAzY2hibU1ONlFZME5WdzJRWDZIN0tNQTA5UzkzUlRVR0I3YXM5aUxBdG00NE56eHhfSWM0cV95VjRmSEpkQWp4Mm4wTDVONE5XUlJ4clFJdkwwVG1wRmM1cjhCdTJiWHVYRGs0TmVVT1MwT1dySHhmX1ZtSHRLWTluenQ4RHIwX0poYmNXQThCWUJqNTg2WS1xdU1za2NWYTdfdGUtUndsSGlZa0tjTHotZ2ZfMlJmeUlZUThnRXg2aW4wTUxnUjNnQkdtcm04SDZfVDQtTlhxek4zU0J5Zk1VZHRzeFBRWkJrSjgxdXN3bkctdm1lM0FYaTFKWGJKOG5qX3lMR0R4ZmtsMWl5M1gwX3NhVVVsUFNYWGg1ZlMtdloxQWRWNmhhT2dFNWdaVndyNG5rVjdOS1UwdXhILXppZ1JZ?oc=5",
+              "source": "Vietnam.vn",
+              "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMXEwZmR1ZmRMUWhlcHljVld6UFE5WmZ5eVdKb25VWlBXaXZKbTYtN3FiQ2stelB4MVFreV9TakpxQ0NQR0JEdXVYWWc0b2NzVXlyRjZLSm5iZW5JOVFIdzNHb2tLcHJtaFBZVkVLaVQ5azlYRmstNDR3ZWhJS1BEb1hBYy1ZRmd5SDhfeUZqUlJoWkpMREJpaXVLOUZzQQ?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
-              "published": "2026-10-07"
+              "published": "2026-10-11"
             }
           ]
         }
@@ -6725,8 +6715,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 2,
-        "current_rate": 26.77,
-        "change_pct": -0.56,
+        "current_rate": 26.75,
+        "change_pct": -0.66,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -6753,7 +6743,7 @@
           29.91,
           28.54,
           27.56,
-          26.77
+          26.75
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/TRYKRW=X",
@@ -6799,44 +6789,44 @@
           "tag_class": "bg-rose-100 text-rose-700",
           "items": [
             {
-              "title": "현대차, 튀르키예 이즈미트 공장서 아이오닉3 생산…유럽 소형 전기차 시장 본격 공략",
+              "title": "토요타, EU에 일본·영국·터키를 '메이드 인 유럽'으로 간주해 EV 혜택 받도록 압박",
               "desc": "",
-              "source": "글로벌이코노믹",
-              "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTGNYMndsV3l0VkdDZXZHLV9yUWVWaXpmb29WOTdEem14U2tZT3M1aTFydS1DRFptOEVITEloOEtCQXVTRjg5MVRRMUVGcDk2d3VVVWJ0aHVOY1dLREZtWTY5MERKX2Z0a0FkS0lBRkdlTE04VFdHU1ZkQUZVeFNoQjczT2R2VUJ5?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
+              "source": "Automotive News",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VRFlGanJwNnZRdWRVU0c4TjZxMmd3SHM3aW14NVlGYnpJRzNocmZfcmFYTDRKQk9SVUNYbElvX2UycWxUanRQa09VTDJ0V3hWdTBjVnFhYWhLXzU1SkM4czB6MzRUUld6UHc?oc=5",
+              "lang": "en",
+              "translated": true,
+              "original_title": "Toyota presses EU to count Japan, UK, Turkey as ‘Made in Europe’ to receive EV benefits",
+              "published": "2026-10-19"
+            },
+            {
+              "title": "터키 보고서 2026",
+              "desc": "",
+              "source": "fDi Intelligence",
+              "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVEVUS01KRXRSMXVzMkxJQ25OWklUdFFuNFozZEFPSDB5MEQ0eHc5bzBPckRRZ21ZRE9yZmFFWW5VU05KSzFpbl82OF9aZ0hRLTFHZndOQURHQXhKb0YxVG9SV3JrU0I4X0VWbGp2cWZUeE84ZHJPc25tM0RsSHZwaUln?oc=5",
+              "lang": "en",
+              "translated": true,
+              "original_title": "The Turkey Report 2026",
+              "published": "2026-10-19"
+            },
+            {
+              "title": "'메이드 인 유럽' 계획에서 터키를 제외하지 말라: AFP 장관",
+              "desc": "",
+              "source": "AFP.com",
+              "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBLbU1nSkJsaVlPNXc5ZWlCbjB3azNFeFUwNDUzYlYtY0p5SGtUY3ZnVFlPYkpSQXluN09xUHJTMHktMmV1U3MxeGQ5ZTZMaDRhUExEeE1ZNkt3MDNObGRmUWxPdE9IdWhqcHBvRUZaYmlRcHp4VUUxVzVGNHk?oc=5",
+              "lang": "en",
+              "translated": true,
+              "original_title": "Don't exclude Turkey from 'Made in Europe' plan: minister to AFP",
+              "published": "2026-10-16"
+            },
+            {
+              "title": "Sentury, 무역 장벽을 '우회'하기 위한 터키 타이어 프로젝트 공개",
+              "desc": "",
+              "source": "European Rubber Journal",
+              "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOY0VobE5BUW1LcTJTbl9YdHdGYWpiNkIyUDJ3UWhCdUlCc2pQSWQzNW8zVTZRcDJ6RHoySHR3SXJOZFZpWVp5TlAzanJaYkdLYXhFTGlUdVJiLXhubHNkejViZ2JtOFFCSmRWT0ptclh2NU9BUkNEZmF4RjJXTnoyMUtyUnhNVjVhMjNLdVlpaHA4RTZ1Sm9TMUpGUDU5WVBFTkY4M25ESUstSnJqcFpiY0liX0ZaQkdsOTFnNnR3?oc=5",
+              "lang": "en",
+              "translated": true,
+              "original_title": "Sentury unveils Turkish tire project to ‘circumvent’ trade barriers",
               "published": "2026-10-09"
-            },
-            {
-              "title": "현대모비스, 튀르키예 배터리 공장에 현지 주지사 방문…전동화 협력 논의",
-              "desc": "",
-              "source": "더구루",
-              "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1NODBUeXo0Mm83akhJYVlvRlQ3ZHctYkVyNU54dVdlcHRjanNwdzM3Tm1xYW55cmVSZ3RSZ1gzNnhFWHpYUEJpU19KWEg0RDVyWkxjZVRZT3JVYV9JaEtuNENLZw?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-18"
-            },
-            {
-              "title": "신형 베이온 튀르키예 생산…하이브리드 더해 유럽 B-SUV 선두권 추격",
-              "desc": "",
-              "source": "한국신용신문",
-              "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxbGlXUnR0V2RtVzNrMUtqSTl3c2V1WjJOamVnVktyem4xZktOZk9IOWdRb2UtYm45cjhTR3VOVEhiTHBiWW5SWFdtbDNfZmc3TlhNTUlEX0RkUXp1U2ViTXBDdFJ5UjI0MUZJ?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-13"
-            },
-            {
-              "title": "현대차, 튀르키예서 ‘아이오닉 3’ 생산 시작⋯이즈미트 공장 2억5000만유로 투자",
-              "desc": "",
-              "source": "엠투데이",
-              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15ZUdkVVJIOTNzNmJqZTMxWGpDUm5KTjFoQ1k5VjZfcE1vYVFpQWJLTzdSVGNOQ0UwWllBc05qZ3Z6ZHAzVnBhWXNaSU1pQzA4eUV4dHphT1VTYTcyc3ZaOUVxV3FKWnVOTEIyNzBubw?oc=5",
-              "lang": "ko",
-              "translated": false,
-              "original_title": "",
-              "published": "2026-10-12"
             }
           ]
         },
@@ -6921,8 +6911,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1326.9,
-        "change_pct": -0.49,
+        "current_rate": 1325.8,
+        "change_pct": -0.57,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -6949,7 +6939,7 @@
           1420.6,
           1377.1,
           1350.5,
-          1326.9
+          1325.8
         ],
         "source": "Yahoo Finance (USD 1:1 고정환율)",
         "url": "https://finance.yahoo.com/quote/USDKRW=X",
@@ -7117,8 +7107,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 340.8,
-        "change_pct": -0.53,
+        "current_rate": 340.5,
+        "change_pct": -0.62,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -7145,7 +7135,7 @@
           380.3,
           367.9,
           350.9,
-          340.8
+          340.5
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/PLNKRW=X",
@@ -7221,14 +7211,14 @@
               "published": "2026-10-16"
             },
             {
-              "title": "[K-금융 글로벌 전략 2026] [폴란드·헝가리] 폴란드 누비는 신한은행의 '금융 메신저'",
+              "title": "선문대 미래자동차공학부, 폴란드 실레시안 공대와 글로벌 모빌리티 협력 강화",
               "desc": "",
-              "source": "블로그",
-              "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1YZ3QtZjU4aEExVlZaSlA3dDBUUDdRdnRkeS1pbUVxMmRET0RtUHFKTG95bTZUcXI1R3RDajZjU3ZjR1pfelFQWW5URDhXSTlldDN1dmV6Y2k0N1o0WUFKdTBtQmdDcEhJMThtQ191aWdPWEFnRXVBTThMdWtVb0E?oc=5",
+              "source": "충청매일",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40bzhEU25ZWVlfZTZPRXk3YVd1MW90bVNIaGNXQ2dneE5IbEtPbGo1aWNfY3BIRzVBaGpQU01iS0FJQ0hDVzNSVDdwaXRWeEQ3Z0Q4TlZ0M2N2cUlHbktOaGZxTmRlcmFOd2c?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
-              "published": "2026-10-16"
+              "published": "2026-10-18"
             }
           ]
         },
@@ -7313,8 +7303,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1488.1,
-        "change_pct": -0.68,
+        "current_rate": 1487.9,
+        "change_pct": -0.69,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -7341,7 +7331,7 @@
           1636.7,
           1580.0,
           1531.4,
-          1488.1
+          1487.9
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/EURKRW=X",
@@ -7350,34 +7340,34 @@
       },
       "headlines": [
         {
-          "title": "프랑스의 대규모 폭동과 반정부 시위: 알아야 할 사항",
+          "title": "프랑스 학생 시위, 더 큰 위기로 치닫고 있다",
+          "source": "Northeastern Global News",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNODhoOGFobVFjbEJPZS1OQWZQTWdqY3FWZ0xfNDRFM1pBTUp3UzNBSngzMTJCTWNXNHJiYTFCeDBIazRScnVfVWs0TUczNlFBM3pZVHhFN3hUeHVzcHItcG96VmxDZF91WVBsMmZfTl9aejZlMXZjczNIOC1qc0xWOXR3?oc=5",
+          "summary": "",
+          "published": "2026-10-20",
+          "lang": "en",
+          "translated": true,
+          "original_title": "France’s student protests have spiraled into a broader crisis"
+        },
+        {
+          "title": "프랑스 지도자들은 주말 전국적으로 발생한 폭력 폭동 이후 질서를 회복하겠다고 다짐했습니다.",
+          "source": "CBS News",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMnZxZjFBdl9uWHhMVWd2UHJFVjVoby1XM1Q1RjEwX3Vobk93RHdrWG9MX0lucF9kRXdYMklZdVY1M1dKR0NyUGV5WnpjZ2JuOE5ZUFNJZmZQMG1oYjg5dkFPWktyWFQzZ3RJWnYyckhlanZmMDkyZGZsV0N3SkpiSUhzTkN1S2EtcHNvbmQ5TQ?oc=5",
+          "summary": "",
+          "published": "2026-10-20",
+          "lang": "en",
+          "translated": true,
+          "original_title": "France's leaders vow to restore order after weekend of violent riots across the country"
+        },
+        {
+          "title": "프랑스, 전국적인 폭동 이후 파리 일부 지역과 기타 도시에 통금 시간 부과",
           "source": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GYnoxd1dncFRldUlCNW5vMDEydGR3U1VpY1RtQVNQdGJGTlItUVpoR1U2dUwyNVNoQU1uQzBDNU5LWUl2UTc2REswb3QzQjVpcFlEVGZhOWxJd3J0RTlIbU4xeUN2RmtIU1IyLWxaaGctZw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QRGxBeGRuaWEyc1kxNmhHM2x5SDliNDRhVklzT1ljYm1JNmg1SjVnQ19YMDBVS2taX0FRQkp4UjVVRDQzMFNBSjlfSHBxODNUVDhaX2tjaExoc2N6eFB6UzVodlFaQkNHQnJBUXdJTVJlT1BDOXNiSHpWUEp0SGs?oc=5",
           "summary": "",
           "published": "2026-10-20",
           "lang": "en",
           "translated": true,
-          "original_title": "Huge Riots and Antigovernment Protests in France: What to Know"
-        },
-        {
-          "title": "프랑스는 치솟는 인플레이션, 치솟는 국가 부채, 무너져가는 학교 때문에 폭동을 일으키고 있습니다. 미국은 잠자는 쌍둥이다",
-          "source": "Fortune",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNVdaSFdtanZIQUhCeFMwUWcyekNrMWxsR0Z3dmZIM0tCaWQ3cmZDd0tUOTJ5WW54c3Z5VmJCdmlFSnJFMmZTVDFzYnhXS1RrLUlkdE9kUHNyMnhfcTZmMEhDUG1JMG8zRHk4MldVN1BHUzhhQ295UXR1VVJnSm9mY3FuWjdNU1RFMlhRQzJVM3RZdWd6?oc=5",
-          "summary": "",
-          "published": "2026-10-20",
-          "lang": "en",
-          "translated": true,
-          "original_title": "France is rioting over surging inflation, skyrocketing national debt and crumbling schools. America is its sleeping twin"
-        },
-        {
-          "title": "반정부 시위와 폭동으로 몸살을 앓고 있는 프랑스: 알아야 할 사항",
-          "source": "Denver Gazette",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTTV0eGFzUkk5VWF5Wkp6bEIzYkU4MmkwU0UyUjg4dFpNeUp3RVFXaFh1NWwwQ1RNX3lqcUY0UGdmc0Y0clhibmcxaTFwT0dnZTkzUkNQWGRnaFFQUHRtREZzYnp4UXIyZWdzZ0FCbmJkaDRFNW9PYnVYVUV4enh4cXFaQUVpZmdwVDJWYS0zdnd4c3RMOE9GWXhBYnd5bE43VjJjdkhqQ3F3Zw?oc=5",
-          "summary": "",
-          "published": "2026-10-20",
-          "lang": "en",
-          "translated": true,
-          "original_title": "France rocked by anti-government protests and riots: What to know"
+          "original_title": "France Imposes Curfews in Parts of Paris and Other Cities After Nationwide Rioting"
         }
       ],
       "hr_trends": [
@@ -7417,14 +7407,14 @@
               "published": "2026-10-19"
             },
             {
-              "title": "[정구민의 톺아보기] 프랑스 3사, 파리서 꺼낸 '브랜드 유산'",
+              "title": "프랑스와 독일 '유럽산' 자동차 분류에 EU 회원국만 포함, \"한국 중국 일본 브랜드에 타격\"",
               "desc": "",
-              "source": "아이뉴스24",
-              "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBhMUNLVHViZjlfMEtUUlZDMnJhZDBBYVRyNEtuaDBVUkZuWVUzVUdxS2hIU2RJamdnZDRCSnlZWERuNFZyaFJPZGVCUQ?oc=5",
+              "source": "비즈니스포스트",
+              "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBQT2JENWtxVVlhbzlXeXR1ZFVndURtWjFydzhJWFR4d0RoQ3NFTTNPZ3A4aWVCWkNnN1JFTlZsT1FaQU5DdTFvUncwZVhwTElyRjNnNDJmUFFuNzhsSVh2clRiV1VTUnlTU2NjVXZUM2ZQZWc?oc=5",
               "lang": "ko",
               "translated": false,
               "original_title": "",
-              "published": "2026-10-18"
+              "published": "2026-10-19"
             }
           ]
         },
@@ -7509,8 +7499,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 927.3,
-        "change_pct": -0.26,
+        "current_rate": 926.4,
+        "change_pct": -0.35,
         "history_labels": [
           "2025년 11월",
           "2025년 12월",
@@ -7537,7 +7527,7 @@
           998.1,
           986.1,
           944.2,
-          927.3
+          926.4
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/AUDKRW=X",
