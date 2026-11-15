@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T10:24:31.108179+09:00",
-  "generated_at_display": "2026-11-14 10:24 KST",
-  "as_of_display": "2026-11-14 10:24 KST 수집",
+  "generated_at": "2026-11-15T09:59:28.704570+09:00",
+  "generated_at_display": "2026-11-15 09:59 KST",
+  "as_of_display": "2026-11-15 09:59 KST 수집",
   "regions": [
     {
       "key": "ALL",
@@ -259,8 +259,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1333.8,
-        "change_pct": -0.19,
+        "current_rate": 1336.2,
+        "change_pct": 0.18,
         "history_labels": [
           "2025년 12월",
           "2026년 1월",
@@ -287,11 +287,11 @@
           1377.1,
           1350.5,
           1338.0,
-          1333.8
+          1336.2
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/USDKRW=X",
-        "asof": "2026-11-13",
+        "asof": "2026-11-14",
         "stale": false
       },
       "headlines": [
@@ -673,8 +673,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 200.0,
-        "change_pct": -0.19,
+        "current_rate": 200.6,
+        "change_pct": 0.31,
         "history_labels": [
           "2025년 12월",
           "2026년 1월",
@@ -701,11 +701,11 @@
           204.7,
           201.5,
           200.9,
-          200.0
+          200.6
         ],
         "source": "Yahoo Finance (USD 교차 환산)",
         "url": "https://finance.yahoo.com/quote/CNYKRW=X",
-        "asof": "2026-11-13",
+        "asof": "2026-11-14",
         "stale": false
       },
       "headlines": [
@@ -1072,8 +1072,8 @@
         "is_base": false,
         "unit_base": 100,
         "decimals": 3,
-        "current_rate": 7.316,
-        "change_pct": -0.95,
+        "current_rate": 7.345,
+        "change_pct": 0.39,
         "history_labels": [
           "2025년 12월",
           "2026년 1월",
@@ -1100,11 +1100,11 @@
           7.757,
           7.525,
           7.37,
-          7.316
+          7.345
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/IDRKRW=X",
-        "asof": "2026-11-13",
+        "asof": "2026-11-14",
         "stale": false
       },
       "headlines": [
@@ -2057,7 +2057,7 @@
         "unit_base": 1,
         "decimals": 1,
         "current_rate": 327.0,
-        "change_pct": -0.33,
+        "change_pct": 0.0,
         "history_labels": [
           "2025년 12월",
           "2026년 1월",
@@ -2088,7 +2088,7 @@
         ],
         "source": "Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/MYRKRW=X",
-        "asof": "2026-11-13",
+        "asof": "2026-11-14",
         "stale": false
       },
       "headlines": [
@@ -6970,8 +6970,8 @@
         "is_base": false,
         "unit_base": 1,
         "decimals": 1,
-        "current_rate": 1333.8,
-        "change_pct": -0.19,
+        "current_rate": 1336.2,
+        "change_pct": 0.18,
         "history_labels": [
           "2025년 12월",
           "2026년 1월",
@@ -6998,11 +6998,11 @@
           1377.1,
           1350.5,
           1338.0,
-          1333.8
+          1336.2
         ],
         "source": "Yahoo Finance (USD 1:1 고정환율)",
         "url": "https://finance.yahoo.com/quote/USDKRW=X",
-        "asof": "2026-11-13",
+        "asof": "2026-11-14",
         "stale": false
       },
       "headlines": [
